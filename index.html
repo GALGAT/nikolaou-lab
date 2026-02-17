@@ -1,1 +1,32 @@
+---
+layout: default
+title: Home
+---
 
+<section class="hero">
+    <h2>Welcome to the Nikolaou Lab</h2>
+    <p>Innovating at the intersection of computer-aided process engineering, mathematical modeling, and data science.</p>
+</section>
+
+<div class="homepage-grid">
+    <section class="bio-section">
+        <h3>About Dr. Michael Nikolaou</h3>
+        <p>Dr. Michael Nikolaou is a Professor of Chemical and Biomolecular Engineering at the University of Houston. His research group focuses on the application of systems engineering principles to a diverse range of complex problems.</p>
+        <p>Current research efforts span from process control and optimization in the energy sector to predictive pharmacokinetic and pharmacodynamic (PK/PD) modeling. By leveraging machine learning, scientific computing, and transport phenomena, the lab develops multi-scale models to optimize processes and medical treatments.</p>
+        <a href="mailto:nikolaou@uh.edu" class="btn">Contact Dr. Nikolaou</a>
+    </section>
+
+    <section class="news-section">
+        <h3>Latest News & Updates</h3>
+        <ul class="news-list">
+          {% for item in site.data.news limit:3 %}
+            <li>
+                <span class="news-date">{{ item.date }}</span><br>
+                <a href="{{ item.link }}" target="_blank"><strong>{{ item.title }}</strong></a>
+            </li>
+          {% else %}
+            <li><em>News feed is currently updating. Check back soon!</em></li>
+          {% endfor %}
+        </ul>
+    </section>
+</div>
