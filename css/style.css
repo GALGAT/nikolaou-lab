@@ -134,3 +134,62 @@ footer {
     color: #ccc;
     font-size: 0.9rem;
 }
+
+/* New Page Styles */
+.page-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--uh-red);
+    padding-bottom: 1rem;
+}
+
+.page-header h2 {
+    color: var(--uh-red);
+    font-size: 2rem;
+}
+
+/* Research Cards */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.research-card {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--uh-red);
+}
+
+.research-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Publications List */
+.pub-list {
+    list-style: none;
+}
+
+.pub-list li {
+    background: var(--bg-light);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.citation-count {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Team List */
+.team-list ul {
+    list-style: none;
+}
+
+.team-list li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 1.1rem;
+}
