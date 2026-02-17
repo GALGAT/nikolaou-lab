@@ -1,1 +1,16 @@
+---
+layout: default
+title: Team
+---
+<div class="page-header">
+    <h2>Lab Members</h2>
+    <p>Current researchers and alumni of the Nikolaou Research Group.</p>
+</div>
 
+<div class="team-list">
+  <ul>
+    {% for student in site.data.students %}
+      <li><strong>{{ student.name }}</strong> &mdash; <em>{{ student.role }}</em></li>
+    {% endfor %}
+  </ul>
+</div>
