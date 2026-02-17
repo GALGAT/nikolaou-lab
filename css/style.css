@@ -1,1 +1,136 @@
+/* Core Variables & Reset */
+:root {
+    --uh-red: #C8102E; /* Official UH Color */
+    --text-dark: #333333;
+    --text-light: #666666;
+    --bg-light: #f4f4f4;
+    --white: #ffffff;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header & Navigation */
+header {
+    background-color: var(--uh-red);
+    color: var(--white);
+    padding: 1.5rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.logo .subtitle {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Area */
+main {
+    background-color: var(--white);
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+/* Homepage Specifics */
+.hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: var(--uh-red);
+    margin-bottom: 0.5rem;
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--uh-red);
+    color: var(--white);
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #a00d25;
+}
+
+/* News List */
+.news-list {
+    list-style: none;
+}
+
+.news-list li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #ccc;
+}
+
+.news-date {
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+.news-list a {
+    color: var(--uh-red);
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #222;
+    color: #ccc;
+    font-size: 0.9rem;
+}
