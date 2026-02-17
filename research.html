@@ -1,1 +1,17 @@
+---
+layout: default
+title: Research
+---
+<div class="page-header">
+    <h2>Research Areas</h2>
+    <p>Our lab focuses on solving complex engineering problems through computational modeling and data science.</p>
+</div>
 
+<div class="research-grid">
+  {% for item in site.data.research %}
+    <div class="research-card">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  {% endfor %}
+</div>
