@@ -1,0 +1,49 @@
+name: Fetch Google Scholar Publications
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: pip install scholarly pyyaml
+        
+      - name: Fetch Scholar Data
+        run: |
+          python -c "
+          from scholarly import scholarly
+          import yaml
+          
+          author = scholarly.search_author_id('mLs4L3UAAAAJ')
+          scholarly.fill(author, sections=['publications'])
+          
+          pubs = []
+          for pub in author['publications'][:20]:  # Fetch top 20
+              pubs.append({
+                  'title': pub['bib'].get('title', ''),
+                  'year': pub['bib'].get('pub_year', ''),
+                  'citation': pub.get('num_citations', 0)
+              })
+              
+          with open('_data/publications.yml', 'w') as f:
+              yaml.dump(pubs, f)
+          "
+          
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _data/publications.yml
+          git commit -m "Automated Google Scholar update" || exit 0
+          git push
