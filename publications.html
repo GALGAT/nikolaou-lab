@@ -1,0 +1,19 @@
+---
+layout: default
+title: Publications
+---
+<div class="page-header">
+    <h2>Selected Publications</h2>
+    <p><em>This list is automatically synchronized with Dr. Nikolaou's Google Scholar profile.</em></p>
+</div>
+
+<ul class="pub-list">
+  {% for pub in site.data.publications %}
+    <li>
+      <strong>{{ pub.title }}</strong> ({{ pub.year }})<br>
+      <span class="citation-count">Citations: {{ pub.citation }}</span>
+    </li>
+  {% else %}
+    <li><em>Publications are currently being fetched by our automated system. Please check back shortly!</em></li>
+  {% endfor %}
+</ul>
