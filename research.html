@@ -15,21 +15,102 @@ title: Research
     <div class="research-card">
         <h3>Intelligent Systems & Feedback Control</h3>
         <p>Developing fundamental methods for the intelligent design and operation of engineered systems. We utilize mathematical modeling, optimization, statistics, and feedback loops to improve safety, reliability, and performance across various industries, from microchip fabrication to snack food production.</p>
+        
+        <div class="card-highlights">
+            <h4>Key Publications:</h4>
+            <ul class="highlight-list">
+                {% assign intelligent_pubs = site.data.publications | where_exp: "item", "item.title contains 'Control' or item.title contains 'Modeling' or item.title contains 'Systems'" | limit: 2 %}
+                {% for pub in intelligent_pubs %}
+                    <li><a href="{{ pub.url }}" target="_blank">{{ pub.title }} ({{ pub.year }})</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
     <div class="research-card">
         <h3>Effective Development and Use of Antibiotics</h3>
         <p>Designing clinical practices that maximize the killing effect of antibiotics on infectious bacteria while minimizing toxicity for human patients. This highly interdisciplinary work bridges engineering and medicine to optimize dosing strategies.</p>
+        
+        <div class="card-highlights">
+            <h4>Key Publications:</h4>
+            <ul class="highlight-list">
+                {% assign antibiotic_pubs = site.data.publications | where_exp: "item", "item.title contains 'Antimicrobial' or item.title contains 'Antibiotic' or item.title contains 'Bacterial'" | limit: 2 %}
+                {% for pub in antibiotic_pubs %}
+                    <li><a href="{{ pub.url }}" target="_blank">{{ pub.title }} ({{ pub.year }})</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
     <div class="research-card">
         <h3>Sustainable Energy Solutions</h3>
         <p>Addressing critical global challenges through the generation of clean energy and the development of efficient, sustainable energy storage systems.</p>
+        
+        <div class="card-highlights">
+            <h4>Key Publications:</h4>
+            <ul class="highlight-list">
+                {% assign energy_pubs = site.data.publications | where_exp: "item", "item.title contains 'Energy' or item.title contains 'Geothermal' or item.title contains 'Electrolytes'" | limit: 2 %}
+                {% for pub in energy_pubs %}
+                    <li><a href="{{ pub.url }}" target="_blank">{{ pub.title }} ({{ pub.year }})</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
     <div class="research-card">
         <h3>Applied Research & Industry Collaboration</h3>
         <p>Collaborating with field practitioners to test fundamental solutions on real-world problems. Solutions are validated using computer simulations, laboratory experiments, or full-scale tests in sectors ranging from oil and gas and refining to pharmaceuticals and semiconductor manufacturing.</p>
+        
+        <div class="card-highlights">
+            <h4>Key Publications:</h4>
+            <ul class="highlight-list">
+                {% assign industry_pubs = site.data.publications | where_exp: "item", "item.journal contains 'SPE' or item.title contains 'Wellbore' or item.title contains 'Drilling'" | limit: 2 %}
+                {% for pub in industry_pubs %}
+                    <li><a href="{{ pub.url }}" target="_blank">{{ pub.title }} ({{ pub.year }})</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
 </div>
+
+<style>
+.card-highlights {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+.card-highlights h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+.highlight-list {
+    list-style: none;
+    padding-left: 0;
+}
+.highlight-list li {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+    position: relative;
+    padding-left: 15px;
+}
+.highlight-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--theme-color);
+    font-weight: bold;
+}
+.highlight-list a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+.highlight-list a:hover {
+    color: var(--theme-color);
+    text-decoration: underline;
+}
+</style>
