@@ -29,15 +29,19 @@ jobs:
           scholarly.fill(author, sections=['publications'])
           
           pubs = []
-          for pub in author['publications'][:20]:  # Fetch top 20
+          for pub in author['publications'][:50]:
+              bib = pub['bib']
               pubs.append({
-                  'title': pub['bib'].get('title', ''),
-                  'year': pub['bib'].get('pub_year', ''),
-                  'citation': pub.get('num_citations', 0)
+                  'title': bib.get('title', ''),
+                  'year': bib.get('pub_year', ''),
+                  'author': bib.get('author', ''),
+                  'journal': bib.get('citation', ''),
+                  'url': pub.get('pub_url', '')
               })
               
           with open('_data/publications.yml', 'w') as f:
               yaml.dump(pubs, f)
+          "
           "
           
       - name: Commit and Push changes
