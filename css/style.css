@@ -299,3 +299,36 @@ footer {
         justify-content: center;
     }
 }
+/* --- Publications Search Bar Fix --- */
+.search-container {
+    margin: 2rem 0;     /* Space above and below the search bar */
+    width: 100%;        /* Ensures the wrapper fills the container */
+    display: block;
+}
+
+#pubSearch {
+    width: 100%;               /* Forces the bar to stretch to full width */
+    padding: 14px 20px;        /* Increases height for a modern feel */
+    font-size: 1.1rem;         /* Easier to read */
+    border: 2px solid #eee;    /* Light, clean border */
+    border-radius: 8px;        /* Matches your research card style */
+    color: var(--text-dark);
+    transition: all 0.3s ease; /* Smooth transition for focus */
+    outline: none;
+}
+
+/* Hover & Focus Effects */
+#pubSearch:hover {
+    border-color: #ddd;
+}
+
+#pubSearch:focus {
+    border-color: var(--theme-color);
+    box-shadow: 0 0 8px rgba(241, 190, 108, 0.2); /* Subtle glow */
+}
+
+/* Styling the placeholder text */
+#pubSearch::placeholder {
+    color: #999;
+    font-style: italic;
+}
