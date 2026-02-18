@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-/* ===== HEADER (adjusted) ===== */
+/* ===== HEADER – now centered and padded ===== */
 header {
     background-color: var(--theme-color);
     color: var(--text-dark);
@@ -40,7 +40,10 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 20px;           /* ← prevents touching screen edges */
+    max-width: 1200px;      /* prevents edge-to-edge on large screens */
+    margin: 0 auto;          /* centers the content */
+    padding: 0 20px;         /* keeps spacing on small screens */
+    width: 100%;
 }
 
 .logo-wrapper {
@@ -57,21 +60,21 @@ header {
 .logo-text h1 {
     font-size: 1.6rem;
     letter-spacing: -0.5px;
-    margin: 0;                  /* remove default margin */
-    line-height: 1.2;           /* tighten line height */
+    margin: 0;                /* remove default margin */
+    line-height: 1.2;         /* tighten line height */
 }
 
 .logo-text .subtitle {
     font-size: 0.95rem;
     opacity: 0.9;
     display: block;
-    margin-top: 0;              /* remove top margin */
-    line-height: 1.2;           /* consistent with h1 */
+    margin-top: 0;            /* no extra gap */
+    line-height: 1.2;
 }
 
 nav {
     display: flex;
-    gap: 1.5rem;                /* even spacing between links */
+    gap: 1.5rem;              /* even spacing between links */
     flex-wrap: wrap;
 }
 
@@ -445,7 +448,7 @@ footer {
     .header-content {
         flex-direction: column;
         align-items: center;
-        padding: 1.5rem 20px;      /* keep side padding on mobile */
+        padding: 1.5rem 20px;      /* keep side padding */
     }
 
     .logo-wrapper {
