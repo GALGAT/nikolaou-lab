@@ -1,277 +1,566 @@
-- author: ML Darby, M Nikolaou
-  journal: Control Engineering Practice 20 (4), 328-342, 2012
-  title: 'MPC: Current practice and challenges'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:Tyk-4Ss8FVUC
-  year: '2012'
-- author: ML Darby, M Nikolaou, J Jones, D Nicholson
-  journal: Journal of Process control 21 (6), 874-884, 2011
-  title: 'RTO: An overview and assessment of current practice'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:ufrVoPGSRksC
-  year: '2011'
-- author: AT Schwarm, M Nikolaou
-  journal: AIChE Journal 45 (8), 1743-1752, 1999
-  title: "Chance\u2010constrained model predictive control"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:u-x6o8ySG0sC
-  year: '1999'
+- author: S Barua, VH Tam, M Nikolaou
+  journal: 2025 AIChE Annual Meeting, 2025
+  title: 'Enhancing the Time-to-Positivity (TTP) Paradigm for the Design of Effective
+    Combination Therapy: A Computer-Aided Approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:mlAyqtXpCwEC
+  year: '2025'
+- author: MH Mukhtar, M Nikolaou, C Ehlig-Economides
+  journal: SPE Annual Technical Conference and Exhibition, D021S030R006, 2025
+  title: Categorizing Legacy Wellbores in the Delaware Basin Based on Failure Risks
+    Under Wastewater Injection
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:IRz6iEL74y4C
+  year: '2025'
+- author: S Barua, JE Smith, VH Tam, M Nikolaou
+  journal: Computers & chemical engineering, 109325, 2025
+  title: 'Enhancing the Time-to-Positivity Paradigm for Guidance of Antimicrobial
+    Therapy: A Model-Based Approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:6ZxmRoH8BuwC
+  year: '2025'
 - author: M Nikolaou
-  journal: Academic Press 26, 131-204, 2001
-  title: 'Model predictive controllers: A critical synthesis of theory and industrial
-    needs'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:9yKSN-GCB0IC
-  year: '2001'
-- author: H Genceli, M Nikolaou
-  journal: AIChE Journal 39 (12), 1954-1965, 1993
-  title: "Robust stability analysis of constrained l1\u2010norm model predictive control"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:u5HHmVD_uO8C
-  year: '1993'
-- author: VH Tam, AN Schilling, M Nikolaou
-  journal: Journal of antimicrobial chemotherapy 55 (5), 699-706, 2005
-  title: "Modelling time\u2013kill studies to discern the pharmacodynamics of meropenem"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:UeHWp8X0CEIC
-  year: '2005'
-- author: JY Fan, M Nikolaou, RE White
-  journal: AIChE Journal 39 (1), 82-88, 1993
-  title: An approach to fault diagnosis of chemical processes via neural networks
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:d1gkVwhDpl0C
-  year: '1993'
-- author: L Saputelli, M Nikolaou, MJ Economides
-  journal: SPE Reservoir Evaluation & Engineering 8 (06), 534-547, 2005
-  title: Self-learning reservoir management
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:2osOgNQ5qMEC
-  year: '2005'
-- author: "C Bravo, L Saputelli, F Rivas, AG P\xE9rez, M Nikolaou, G Zangl, ..."
-  journal: Spe Journal 19 (04), 547-563, 2014
-  title: 'State of the art of artificial intelligence and predictive analytics in
-    the E&P industry: a technology survey'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:Dip1O2bNi0gC
-  year: '2014'
-- author: L Saputelli, M Nikolaou, MJ Economides
-  journal: Computational Geosciences 10 (1), 61-96, 2006
-  title: 'Real-time reservoir management: A multiscale adaptive optimization and control
-    approach'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:Y0pCki6q_DkC
-  year: '2006'
-- author: M Shouche, H Genceli, V Premkiran, M Nikolaou
-  journal: Automatica 34 (12), 1521-1530, 1998
-  title: Simultaneous constrained model predictive control and identification of DARX
-    processes
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:W7OEmFMy1HYC
-  year: '1998'
-- author: H Genecili, M Nikolaou
-  journal: AIChE Journal 41 (9), 2098-2107, 1995
-  title: "Design of robust constrained model\u2010predictive controllers with volterra\
-    \ series"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:qjMakFHDy7sC
-  year: '1995'
-- author: Y You, M Nikolaou
-  journal: AIChE Journal 39 (10), 1654-1667, 1993
-  title: Dynamic process modeling with recurrent neural networks
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:zYLM7Y9cAGgC
-  year: '1993'
-- author: L Saputelli, H Malki, J Canelon, M Nikolaou
-  journal: SPE Annual Technical Conference and Exhibition?, SPE-77703-MS, 2002
-  title: A critical overview of artificial neural network applications in the context
-    of continuous oil field optimization
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:LkGwnXOMwfcC
-  year: '2002'
-- author: LA Carlsen, G Nygaard, M Nikolaou
-  journal: Journal of Process Control 23 (3), 306-316, 2013
-  title: Evaluation of control methods for drilling operations with unexpected gas
-    influx
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:M3NEmzRMIkIC
-  year: '2013'
-- author: VH Tam, KR Ledesma, G Vo, S Kabbara, TP Lim, M Nikolaou
-  journal: Antimicrobial agents and chemotherapy 52 (11), 3987-3993, 2008
-  title: "Pharmacodynamic Modeling of Aminoglycosides against Pseudomonas aeruginosa\
-    \ and Acinetobacter baumannii: Identifying Dosing Regimens To Suppress \u2026"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:UebtZRa9Y70C
-  year: '2008'
-- author: L Saputelli, B Cesar, N Michael, L Carlos, R Cramer, M Toshi, G Moricca
-  journal: SPE Kuwait Oil and Gas Show and Conference, SPE-167269-MS, 2013
-  title: Best practices and lessons learned after 10 years of digital oilfield (DOF)
-    implementations
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:tkaPQYYpVKoC
-  year: '2013'
+  journal: Reviews in Chemical Engineering 41 (4), 309-310, 2025
+  title: Recent developments and prospects of machine learning in chemical engineering
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:NXb4pA-qfm4C
+  year: '2025'
+- author: G Singh, SG Mohiuddin, S Ghosh, J Narzary, MA Orman, M Nikolaou
+  journal: Computers & chemical engineering 195, 109010, 2025
+  title: 'Systematic design of pulse dosing to eradicate persister bacteria: The case
+    of fluoroquinolones'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:LO7wyVUgiFcC
+  year: '2025'
+- author: H GALGAT, N Pouya, VH Tam, M Nikolaou
+  journal: Available at SSRN 5316479, 2025
+  title: Using Machine Learning to Design Effective Antimicrobial Dosing Regimens
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:_5tno0g5mFcC
+  year: '2025'
+- author: BM Eales, J Smith, N Pouya, CS Hudson, VH Tam, M Nikolaou
+  journal: Computers & chemical engineering 192, 108884, 2025
+  title: Rapid design of combination antimicrobial therapy against Acinetobacter baumannii
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:FAceZFleit8C
+  year: '2025'
+- author: KK Rao, M Nikolaou, Y Yao, CM Wolverton, LC Grabow
+  journal: Electrochemical Society Meeting Abstracts prime2024, 1054-1054, 2024
+  title: Discovery of Lithium Solid State Electrolytes through Machine Learned Probability
+    Density Analysis
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:anf4URPfarAC
+  year: '2024'
+- author: CS Hudson, JE Smith, BM Eales, M Nikolaou, VH Tam
+  journal: International journal of antimicrobial agents 62 (4), 106924, 2023
+  title: In vitro model to simulate multiple drugs with distinct elimination half-lives
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:kh2fBNsKQNwC
+  year: '2023'
 - author: M Nikolaou, VH Tam
-  journal: Journal of mathematical biology 52 (2), 154-182, 2006
-  title: A new modeling approach to the effect of antimicrobial agents on heterogeneous
-    microbial populations
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:5nxA0vEk-isC
-  year: '2006'
-- author: S Bhattacharya, M Nikolaou
-  journal: Spe Journal 21 (03), 0947-0964, 2016
-  title: Comprehensive optimization methodology for stimulation design of low-permeability
-    unconventional gas reservoirs
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:tKAzc9rXhukC
-  year: '2016'
-- author: P Bhagunde, KT Chang, EB Hirsch, KR Ledesma, M Nikolaou, VH Tam
-  journal: Antimicrobial agents and chemotherapy 56 (5), 2237-2240, 2012
-  title: "Novel modeling framework to guide design of optimal dosing strategies for\
-    \ \u03B2-lactamase inhibitors"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:mB3voiENLucC
-  year: '2012'
-- author: M Nikolaou, P Vuthandam
-  journal: AIChE Journal 44 (1), 141-150, 1998
-  title: 'FIR model identification: parsimony through kernel compression with wavelets'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:YsMSGLbcyi4C
-  year: '1998'
-- author: MJ Economides, WFJ Deeg, P Valko, M Nikolaou, S Sankaran
-  journal: US Patent 7,006,918, 2006
-  title: Method for stress and stability related measurements in boreholes
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:4DMP91E08xMC
-  year: '2006'
-- author: G Mijares, A Garcia, S Sankaran, J Rodriguez, L Saputelli, A Awasthi, ...
-  journal: US Patent 8,396,826, 2013
-  title: Systems and methods for optimization of real time production operations
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:wbdj-CoPYUoC
-  year: '2013'
-- author: MT Holtzapple, EP Ripley, M Nikolaou
-  journal: Biotechnology and bioengineering 44 (9), 1122-1131, 1994
-  title: "Saccharification, fermentation, and protein recovery from low\u2010temperature\
-    \ AFEX\u2010treated coastal bermudagrass"
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:LjlpjdlvIbIC
-  year: '1994'
-- author: L Saputelli, M Economides, M Nikolaou, V Kelessidis
-  journal: SPE/IADC Middle East Drilling Technology Conference and Exhibition, SPE-85314-MS,
-    2003
-  title: Real-time decision-making for value creation while drilling
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:_kc_bZDykSQC
-  year: '2003'
-- author: SA Eker, M Nikolaou
-  journal: AIChE journal 48 (9), 1957-1980, 2002
-  title: 'Linear control of nonlinear systems: Interplay between nonlinearity and
-    feedback'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:WF5omc3nYNoC
-  year: '2002'
-- author: S Gupta, L Saputelli, M Nikolaou
-  journal: SPE Annual Technical Conference and Exhibition?, D031S038R004, 2016
-  title: Applying big data analytics to detect, diagnose, and prevent impending failures
-    in electric submersible pumps
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:z_wVstp3MssC
-  year: '2016'
-- author: M Nikolaou, P Misra
-  journal: Computers & chemical engineering 27 (8-9), 1043-1059, 2003
-  title: 'Linear control of nonlinear processes: recent developments and future directions'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:hqOjcs7Dif8C
-  year: '2003'
-- author: "JE Gravdal, M Nikolaou, \xD8 Breyholtz, LA Carlsen"
-  journal: SPE Drilling & Completion 25 (04), 577-584, 2010
-  title: Improved kick management during MPD by real-time pore-pressure estimation
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:hC7cP41nSMkC
-  year: '2010'
-- author: ML Darby, M Nikolaou
-  journal: Automatica 43 (5), 885-891, 2007
-  title: A parametric programming approach to moving-horizon state estimation
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:8k81kl-MbHgC
-  year: '2007'
-- author: B Guo, K Abdelraouf, KR Ledesma, M Nikolaou, VH Tam
-  journal: Journal of antimicrobial chemotherapy 67 (4), 928-932, 2012
-  title: Predicting bacterial fitness cost associated with drug resistance
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:_Qo2XoVZTnwC
-  year: '2012'
-- author: V Hanagandi, M Nikolaou
-  journal: Computers & chemical engineering 22 (12), 1913-1925, 1998
-  title: A hybrid approach to global optimization using a clustering algorithm in
-    a genetic search framework
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:_FxGoFyzp5QC
-  year: '1998'
+  journal: Pharmaceutics 15 (6), 1671, 2023
+  title: 'Rapid In Vitro Assessment of Antimicrobial Drug Effect Bridging Clinically
+    Relevant Pharmacokinetics: A Comprehensive Methodology'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:YohjEiUPhakC
+  year: '2023'
+- author: M Nikolaou, VH Tam, I KESISOGLOU
+  journal: US Patent App. 17/636,079, 2023
+  title: Optical based methods for determining antimicrobial dosing regimens
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:rmuvC79q63oC
+  year: '2023'
+- author: G Singh, MA Orman, JC Conrad, M Nikolaou
+  journal: PLoS Computational Biology 19 (1), e1010243, 2023
+  title: Systematic design of pulse dosing to eradicate persister bacteria
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ClCfbGk0d_YC
+  year: '2023'
+- author: I Kesisoglou, BM Eales, PR Merlau, VH Tam, M Nikolaou
+  journal: Computer methods and programs in biomedicine 227, 107212, 2022
+  title: 'Deciphering longitudinal optical-density measurements to guide clinical
+    dosing regimen design: A model-based approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:86PQX7AUzd4C
+  year: '2022'
+- author: G Singh, M Orman, J Conrad, M Nikolaou
+  journal: 2022 AIChE Annual Meeting, 2022
+  title: 'Trick and Treat: Pulse Dosing to Eradicate Persister Bacteria'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:bz8QjSJIRt4C
+  year: '2022'
+- author: I Kesisoglou, VH Tam, M Nikolaou
+  journal: 2022 AIChE Annual Meeting, 2022
+  title: 'Deciphering Longitudinal Optical-Density Measurements to Guide Antibiotic
+    Use: A Model Based Approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:4fGpz3EwCPoC
+  year: '2022'
+- author: C Ehlig-Economides, M Nikolaou, MA Khan
+  journal: SPE Annual Technical Conference and Exhibition?, D011S020R002, 2022
+  title: Methodology to Estimate Low Grade Enhanced Geothermal System (EGS) Reserves
+    Using Heat Extracted from Depleted Wells in High Temperature Shale Gas Formations
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:PVjk1bu6vJQC
+  year: '2022'
 - author: M Nikolaou
-  journal: 1993 American Control Conference, 910-914, 1993
-  title: When is nonlinear dynamic modeling necessary?
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:Se3iqnhoufwC
-  year: '1993'
-- author: MJ Economides, WFJ Deeg, P Valko, M Nikolaou, S Sankaran
-  journal: US Patent 6,834,233, 2004
-  title: System and method for stress and stability related measurements in boreholes
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:dhFuZR0502QC
-  year: '2004'
+  journal: Scientific reports 12 (1), 7077, 2022
+  title: Revisiting the standard for modeling the spread of infectious diseases
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:FPJr55Dyh1AC
+  year: '2022'
+- author: I Kesisoglou, VH Tam, AP Tomaras, M Nikolaou
+  journal: Computers & chemical engineering 158, 107617, 2022
+  title: 'Discerning in vitro pharmacodynamics from OD measurements: A model-based
+    approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:XoXfffV-tXoC
+  year: '2022'
+- author: M Nikolaou
+  journal: Computers & Chemical Engineering 157, 107615, 2022
+  title: 'Ziegler and Nichols meet Kermack and McKendrick: Parsimony in dynamic models
+    for epidemiology'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ruyezt5ZtCIC
+  year: '2022'
+- author: I Kesisoglou, BM Eales, KR Ledesma, PR Merlau, VH Tam, W Wang, ...
+  journal: Computers & chemical engineering 155, 107540, 2021
+  title: Simultaneous in vitro simulation of multiple antimicrobial agents with different
+    elimination half-lives in a pre-clinical infection model
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:e_rmSamDkqQC
+  year: '2021'
+- author: KK Rao, Y Yao, M Nikolaou, CM Wolverton, L Grabow
+  journal: 2021 AIChE Annual Meeting, 2021
+  title: Automated Solid State Electrolyte Conductivity Predictions Via Probability
+    Density Analysis
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:9pM33mqn1YgC
+  year: '2021'
+- author: I Kesisoglou, VH Tam, AP Tomaras, M Nikolaou
+  journal: 2021 AIChE Annual Meeting, 2021
+  title: 'Discerning in Vitro Pharmacodynamics from Optical Density Measurements:
+    A Model-Based Approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:Ug5p-4gJ2f0C
+  year: '2021'
+- author: BM Eales, CS Hudson, I Kesisoglou, W Wang, M Nikolaou, VH Tam
+  journal: Antibiotics 10 (10), 1256, 2021
+  title: Experimental Validation of a Mathematical Framework to Simulate Antibiotics
+    with Distinct Half-Lives Concurrently in an In Vitro Model
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:q3CdL3IzO_QC
+  year: '2021'
+- author: L Zeinali, C Ehlig-Economides, M Nikolaou
+  journal: SPE Annual Technical Conference and Exhibition?, D021S040R004, 2021
+  title: Enhanced Geothermal System Model for Flow through a Stimulated Rock Volume
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:foquWX3nUaYC
+  year: '2021'
+- author: S Gupta, M Nikolaou, L Saputelli, C Bravo
+  journal: US Patent 11,078,774, 2021
+  title: System and method for detecting, diagnosing, and correcting trips or failures
+    of electrical submersible pumps
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:oNZyr7d5Mn4C
+  year: '2021'
+- author: I Kesisoglou, G Singh, M Nikolaou
+  journal: Computers & chemical engineering 148, 107259, 2021
+  title: The Lambert function should be in the engineering mathematical toolbox
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:i2xiXl-TujoC
+  year: '2021'
+- author: G Luo, C Ehlig-Economides, M Nikolaou
+  journal: Journal of Petroleum Science and Engineering 199, 108091, 2021
+  title: Advantage of miscible fluid injection and tight oil production through a
+    single-well alternating production-injection procedure over other single-well
+    EOR methods
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:-FonjvnnhkoC
+  year: '2021'
+- author: VH Tam, H Abodakpi, W Wang, KR Ledesma, PR Merlau, K Chan, ...
+  journal: Journal of Antimicrobial Chemotherapy 76 (1), 179-183, 2021
+  title: "Optimizing pharmacokinetics/pharmacodynamics of \u03B2-lactam/\u03B2-lactamase\
+    \ inhibitor combinations against high inocula of ESBL-producing bacteria"
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:kz9GbA2Ns4gC
+  year: '2021'
+- author: KK Rao, M Nikolaou, Y Yao, L Grabow
+  journal: 2020 Virtual AIChE Annual Meeting, 2020
+  title: Machine Learning the Fundamental Tradeoffs between Conductivity and Voltage
+    Stability in Solid State Electrolytes
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:tYavs44e6CUC
+  year: '2020'
+- author: F Alwarda, G Liu, M Nikolaou, C Ehlig-Economides
+  journal: SPE Annual Technical Conference and Exhibition?, D031S036R004, 2020
+  title: Automated procedure for quantifying ISIP and friction losses from stage by
+    stage hydraulic fracture treatment falloff data
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:PoWvk5oyLR8C
+  year: '2020'
+- author: M Nikolaou
+  journal: medRxiv, 2020.04. 26.20080960, 2020
+  title: A fundamental inconsistency in the sir model structure and proposed remedies
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:VaXvl8Fpj5cC
+  year: '2020'
+- author: M Nikolaou
+  journal: medRxiv, 2020.04. 14.20065698, 2020
+  title: 'Using feedback on symptomatic infections to contain the coronavirus epidemic:
+    Insight from a SPIR model'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:LI9QrySNdTsC
+  year: '2020'
+- author: M Nikolaou
+  journal: arXiv preprint arXiv:2004.04271, 2020
+  title: Simple Formulas for a Two-Tier Strategy to Flatten the Curve
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:lmc2jWPfTJgC
+  year: '2020'
+- author: G Luo, C Ehlig-Economides, M Nikolaou
+  journal: 2019 AIChE Annual Meeting, 2019
+  title: Optimizing Tight Oil Recovery through a Single Well Alternating Production-Injection
+    Procedure
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:gsN89kCJA0AC
+  year: '2019'
+- author: G Luo, C Ehlig-Economides, M Nikolaou
+  journal: 2019 AIChE Annual Meeting, 2019
+  title: A Control Methodology for CO2 Injection to Optimize Tight Oil Production
+    from a Fractured Horizontal Well
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:TIZ-Mc8IlK0C
+  year: '2019'
+- author: G Mijares, A Garcia, S Sankaran, J Rodriguez, L Saputelli, A Awasthi, ...
+  journal: US Patent 10,354,207, 2019
+  title: Systems and methods for optimization of real time production operations
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:eq2jaN3J8jMC
+  year: '2019'
+- author: N Goyal, M Marongiu-Porcu, M Nikolaou
+  journal: 2018 AIChE Annual Meeting, 2018
+  title: Estimating the Drainage Area of
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:b1wdh0AR-JQC
+  year: '2018'
+- author: S Misra, M Nikolaou
+  journal: Journal of Natural Gas Science and Engineering 59, 262-273, 2018
+  title: A data-driven modeling approach to zonal isolation of cemented gas wells
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:BwyfMAYsbu0C
+  year: '2018'
+- author: J Rodrigues, M Nikolaou
+  journal: 2018 AIChE Annual Meeting, 2018
+  title: Geosteering Using Image Logs and an Intelligent Bottomhole Assembly
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:SpbeaW3--B0C
+  year: '2018'
+- author: S Mathur, M Marongiu-Porcu, M Nikolaou
+  journal: 2018 AIChE Annual Meeting, 2018
+  title: 'Predicting Future Production for Unconventional Resources: A Data-Driven
+    Approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:MLfJN-KU85MC
+  year: '2018'
+- author: G Luo, C Ehlig-Economides, M Nikolaou
+  journal: 2018 AIChE Annual Meeting, 2018
+  title: Optimization of Single-Well CO2 Injection for Enhancement of Tight Oil Production
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:HbR8gkJAVGIC
+  year: '2018'
+- author: S Panjwani, J McDaniel, M Nikolaou
+  journal: Journal of Natural Gas Science and Engineering 47, 101-113, 2017
+  title: 'Improvement of zonal isolation in horizontal shale gas wells: A data-driven
+    model-based approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:BUYA1_V_uYcC
+  year: '2017'
+- author: S Misra, M Nikolaou
+  journal: 2017 AIChE Annual Meeting, 2017
+  title: Design of Experiments for Identification of Model That Is Suitable for Use
+    in Control System
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:tuHXwOkdijsC
+  year: '2017'
+- author: M Eden, M Nikolaou
+  journal: 2017 AIChE Annual Meeting, 2017
+  title: CAST Director's Student Presentation Award Finalists
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:WZBGuue-350C
+  year: '2017'
+- author: S Misra, M Darby, S Panjwani, M Nikolaou
+  journal: Processes 5 (3), 42, 2017
+  title: 'Design of experiments for control-relevant multivariable model identification:
+    an overview of some basic recent developments'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:AvfA0Oy_GE0C
+  year: '2017'
+- author: S Misra, M Nikolaou
+  journal: Computers & Chemical Engineering 100, 119-138, 2017
+  title: Adaptive design of experiments for model order estimation in subspace identification
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ipzZ9siozwsC
+  year: '2017'
+- author: KH Macfarlan, CP Wreden, MJ Schinnell, M Nikolaou
+  journal: SPE Drilling & Completion 32 (01), 59-68, 2017
+  title: A comparative hydraulic analysis of conventional-and reverse-circulation
+    primary cementing in offshore wells
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:EkHepimYqZsC
+  year: '2017'
 - author: A Khanal, M Khoshghadam, WJ Lee, M Nikolaou
   journal: Journal of Natural Gas Science and Engineering 38, 621-637, 2017
   title: New forecasting method for liquid rich shale gas condensate reservoirs with
     data driven approach using principal component analysis
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:nrtMV_XWKgEC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:nrtMV_XWKgEC
   year: '2017'
+- author: S Gupta, L Saputelli, M Nikolaou
+  journal: SPE Artificial Lift Conference and Exhibition-Americas, D021S004R003, 2016
+  title: Big data analytics workflow to safeguard ESP operations in real-time
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:t7zJ5fGR-2UC
+  year: '2016'
+- author: S Gupta, L Saputelli, M Nikolaou
+  journal: SPE Annual Technical Conference and Exhibition?, D031S038R004, 2016
+  title: Applying big data analytics to detect, diagnose, and prevent impending failures
+    in electric submersible pumps
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:z_wVstp3MssC
+  year: '2016'
+- author: S Gupta, M Nikolaou, L Saputelli, C Bravo
+  journal: SPE Intelligent Energy International Conference and Exhibition, SPE-181009-MS,
+    2016
+  title: 'ESP health monitoring KPI: a real-time predictive analytics application'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:VLnqNzywnoUC
+  year: '2016'
+- author: S Panjwani, M Nikolaou
+  journal: Computers & Chemical Engineering 92, 172-179, 2016
+  title: Ensuring integral controllability for robust multivariable control
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:fEOibwPWpKIC
+  year: '2016'
+- author: S Panjwani, M Nikolaou
+  journal: AIChE Journal 62 (9), 2986-3001, 2016
+  title: "Experiment design for control\u2010relevant identification of partially\
+    \ known stable multivariable systems"
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:tzM49s52ZIMC
+  year: '2016'
+- author: S Bhattacharya, M Nikolaou
+  journal: Spe Journal 21 (03), 0947-0964, 2016
+  title: Comprehensive optimization methodology for stimulation design of low-permeability
+    unconventional gas reservoirs
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:tKAzc9rXhukC
+  year: '2016'
+- author: AP Singh, M Nikolaou, L Saputelli, M Maucec
+  journal: US Patent App. 14/770,381, 2016
+  title: Methods and systems for reservoir history matching for improved estimation
+    of reservoir performance
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ZfRJV9d4-WMC
+  year: '2016'
+- author: Y Lin, HY Wang, S He, M Nikolaou
+  journal: SPE Annual Technical Conference and Exhibition?, D021S018R008, 2015
+  title: 'Increasing shale gas recovery through thermal stimulation: analysis and
+    an experimental study'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:7T2F9Uy0os0C
+  year: '2015'
+- author: PR Bhagunde, M Nikolaou, VH Tam
+  journal: AIChE Journal 61 (8), 2385-2393, 2015
+  title: "Modeling heterogeneous bacterial populations exposed to antibiotics: The\
+    \ logistic\u2010dynamics case"
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:uLbwQdceFCQC
+  year: '2015'
+- author: MW Tan, DC Lye, TM Ng, M Nikolaou, VH Tam
+  journal: Antimicrobial Agents and Chemotherapy 58 (9), 5239-5244, 2014
+  title: Mathematical model to quantify the effects of risk factors on carbapenem-resistant
+    Acinetobacter baumannii
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:1sJd4Hv_s6UC
+  year: '2014'
+- author: "C Bravo, L Saputelli, F Rivas, AG P\xE9rez, M Nikolaou, G Zangl, ..."
+  journal: Spe Journal 19 (04), 547-563, 2014
+  title: 'State of the art of artificial intelligence and predictive analytics in
+    the E&P industry: a technology survey'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:Dip1O2bNi0gC
+  year: '2014'
+- author: C Wreden, JT Watters, R Giroux, M Nikolaou, K Macfarlan, DA Richardson
+  journal: Offshore Technology Conference, D031S030R002, 2014
+  title: 'Deepwater reverse-circulation primary cementing: Applicability and technical
+    path forward for implementation'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:V3AGJWp-ZtQC
+  year: '2014'
+- author: HB Siahaan, EH Vefring, M Nikolaou, JE Gravdal
+  journal: SPE Norway Subsurface Conference, SPE-169205-MS, 2014
+  title: Evaluation of Coordinated Control During Back Pressure MPD Operations
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:bFI3QPDXJZMC
+  year: '2014'
+- author: AP Singh, S Mukherjee, M Nikolaou
+  journal: Journal of Process Control 24 (3), 158-171, 2014
+  title: Debottlenecking level control for tanks in series
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:K3LRdlH-MEoC
+  year: '2014'
+- author: VH Tam, M Nikolaou
+  journal: US Patent App. 13/899,876, 2014
+  title: High Throughput Screening for Antimicrobial Dosing Regimens
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:PELIpwtuRlgC
+  year: '2014'
 - author: ML Darby, M Nikolaou
   journal: Control Engineering Practice 22, 165-180, 2014
   title: 'Identification test design for multivariable model-based control: An industrial
     perspective'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:8AbLer7MMksC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:8AbLer7MMksC
   year: '2014'
-- author: M Nikolaou, V Hanagandi
-  journal: AIChE journal 39 (11), 1890-1894, 1993
-  title: Control of nonlinear dynamical systems modeled by recurrent neural networks
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:eQOLeE2rZwMC
-  year: '1993'
+- author: AP Singh, M Nikolaou
+  journal: 'Economics: The Open-Access, Open-Assessment E-Journal 8 (2014-37), 1-67,
+    2014'
+  title: Optimal rules for central bank interest rates subject to zero lower bound
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:SeFeTyx0c_EC
+  year: '2014'
+- author: M Nikolaou, X Wang, MJ Economides
+  journal: SPE Asia Pacific Oil and Gas Conference and Exhibition, SPE-165898-MS,
+    2013
+  title: Optimisation of compressed natural gas marine transportation with composite-Material
+    containers
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:kRWSkSYxWN8C
+  year: '2013'
 - author: S Bhattacharya, M Nikolaou
   journal: SPE Journal 18 (05), 878-896, 2013
   title: Analysis of production history for unconventional gas reservoirs with statistical
     methods
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:VOx2b1Wkg3QC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:VOx2b1Wkg3QC
   year: '2013'
-- author: M Nikolaou, V Manousiouthakis
-  journal: AIChE Journal 35 (4), 559-572, 1989
-  title: A hybrid approach to nonlinear system stability and performance
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:roLk4NBRz8UC
-  year: '1989'
-- author: P Vuthandam, H Genceli, M Nikolaou
-  journal: AIChE Journal 41 (9), 2083-2097, 1995
-  title: Performance bounds for robust quadratic dynamic matrix control with end condition
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:0EnyYjriUFMC
-  year: '1995'
+- author: L Saputelli, B Cesar, N Michael, L Carlos, R Cramer, M Toshi, G Moricca
+  journal: SPE Kuwait Oil and Gas Show and Conference, SPE-167269-MS, 2013
+  title: Best practices and lessons learned after 10 years of digital oilfield (DOF)
+    implementations
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:tkaPQYYpVKoC
+  year: '2013'
+- author: J Bassett*, J Watters, NK Combs, M Nikolaou
+  journal: Global Meeting Abstracts, 1020-1028, 2013
+  title: Lowering drilling cost, improving operational safety, and reducing environmental
+    impact through zonal isolation improvements for horizontal wells drilled in the
+    marcellus shale
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:0KyAp5RtaNEC
+  year: '2013'
+- author: VH Tam, M Nikolaou
+  journal: US Patent 8,452,543, 2013
+  title: High throughput screening for antimicrobial dosing regimens
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:SdhP9T11ey4C
+  year: '2013'
+- author: M Nikolaou
+  journal: Computers & chemical engineering 51, 96-101, 2013
+  title: Computer-aided process engineering in oil and gas production
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:J_g5lzvAfSwC
+  year: '2013'
+- author: G Mijares, A Garcia, S Sankaran, J Rodriguez, L Saputelli, A Awasthi, ...
+  journal: US Patent 8,396,826, 2013
+  title: Systems and methods for optimization of real time production operations
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:wbdj-CoPYUoC
+  year: '2013'
+- author: AP Singh, M Nikolaou
+  journal: Journal of Process Control 23 (3), 294-305, 2013
+  title: Control of a process with unmeasured disturbances that change its steady-state
+    gain sign
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:f2IySw72cVMC
+  year: '2013'
+- author: LA Carlsen, G Nygaard, M Nikolaou
+  journal: Journal of Process Control 23 (3), 306-316, 2013
+  title: Evaluation of control methods for drilling operations with unexpected gas
+    influx
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:M3NEmzRMIkIC
+  year: '2013'
+- author: S Panjwani, M Nikolaou
+  journal: AIChE Annual Meeting. San Francisco, CA, 2013
+  title: 'Ensuring Environmental Friendliness of Horizontal Shale Gas Wells Through
+    Zonal Isolation: A Model-Based Approach (554b)'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:_Re3VWB3Y0AC
+  year: '2013'
+- author: S Bhattacharya, M Nikolaou, MJ Economides
+  journal: Journal of Natural Gas Science and Engineering 9, 184-195, 2012
+  title: Unified Fracture Design for very low permeability reservoirs
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:rO6llkc54NcC
+  year: '2012'
+- author: P Bhagunde, KT Chang, EB Hirsch, KR Ledesma, M Nikolaou, VH Tam
+  journal: Antimicrobial agents and chemotherapy 56 (5), 2237-2240, 2012
+  title: "Novel modeling framework to guide design of optimal dosing strategies for\
+    \ \u03B2-lactamase inhibitors"
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:mB3voiENLucC
+  year: '2012'
+- author: B Guo, K Abdelraouf, KR Ledesma, M Nikolaou, VH Tam
+  journal: Journal of antimicrobial chemotherapy 67 (4), 928-932, 2012
+  title: Predicting bacterial fitness cost associated with drug resistance
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:_Qo2XoVZTnwC
+  year: '2012'
+- author: ML Darby, M Nikolaou
+  journal: Control Engineering Practice 20 (4), 328-342, 2012
+  title: 'MPC: Current practice and challenges'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:Tyk-4Ss8FVUC
+  year: '2012'
+- author: C Bravo, L Saputelli, F Rivas, AG Perez, M Nikolaou, G Zangl, ...
+  journal: SPE Intelligent Energy International, 2012
+  title: 'State-of-the-art application of artificial intelligence and trends in the
+    E&P industry: A technology survey'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:hMod-77fHWUC
+  year: '2012'
+- author: "\xD8 Breyholtz, M Nikolaou"
+  journal: SPE Drilling & Completion 27 (01), 118-126, 2012
+  title: 'Drilling automation: Presenting a framework for automated operations'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:GnPB-g6toBAC
+  year: '2012'
+- author: "I \xD8yvind Breyholtz, M Nikolaou"
+  journal: ''
+  title: 'Drilling Automation: Presenting a Framework for Automated Operations'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:Ri6SYOTghG4C
+  year: '2012'
+- author: GJ Moridis, HA Kuzma, MT Reagan, TA Blasingame, YW Huang, ...
+  journal: SPE Canada Unconventional Resources Conference, SPE-149485-MS, 2011
+  title: 'SeTES: a self-teaching expert system for the analysis, design, and prediction
+    of gas production from unconventional gas resources'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:HoB7MX3m0LUC
+  year: '2011'
+- author: S Bhattacharya, M Nikolaou
+  journal: SPE Canada Unconventional Resources Conference, SPE-147658-MS, 2011
+  title: Using data from existing wells to plan new wells in unconventional gas field
+    development
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:vV6vV6tmYwMC
+  year: '2011'
+- author: GJ Moridis, H Kuzma-Anderson, MT Reagan, TA Blasingame, R Santos, ...
+  journal: Society of Petroleum Engineers, 2011
+  title: A Self-Teaching Expert System for the Analysis, Design, and Prediction of
+    Gas Production from Unconventional Gas Resources
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:RYcK_YlVTxYC
+  year: '2011'
 - author: S Bhattacharya, M Nikolaou
   journal: SPE Annual Technical Conference and Exhibition?, SPE-147622-MS, 2011
   title: Optimal fracture spacing and stimulation design for horizontal wells in unconventional
     gas reservoirs
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:bEWYMUwI8FkC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:bEWYMUwI8FkC
+  year: '2011'
+- author: B Guo, K Abdelraouf, KR Ledesma, KT Chang, M Nikolaou, VH Tam
+  journal: Antimicrobial agents and chemotherapy 55 (10), 4601-4605, 2011
+  title: Quantitative impact of neutrophils on bacterial clearance in a murine pneumonia
+    model
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:RGFaLdJalmkC
+  year: '2011'
+- author: P Diomede, M Nikolaou, DJ Economou
+  journal: Plasma Sources Science and Technology 20 (4), 045011, 2011
+  title: Voltage waveform to achieve a desired ion energy distribution on a substrate
+    in contact with plasma
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:NaGl4SEjCO4C
+  year: '2011'
+- author: MJ Economides, M Nikolaou
+  journal: AIChE journal 57 (8), 1974-1982, 2011
+  title: 'Technologies for oil and gas production: present and future'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:j3f4tGmQtD8C
+  year: '2011'
+- author: ML Darby, M Nikolaou, J Jones, D Nicholson
+  journal: Journal of Process control 21 (6), 874-884, 2011
+  title: 'RTO: An overview and assessment of current practice'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ufrVoPGSRksC
+  year: '2011'
+- author: "\xD8 Breyholtz, G Nygaard, M Nikolaou"
+  journal: SPE Drilling & Completion 26 (02), 182-197, 2011
+  title: 'Managed-pressure drilling: Using model predictive control to improve pressure
+    control during dual-gradient drilling'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:iH-uZ7U-co4C
+  year: '2011'
+- author: P Bhagunde, R Singh, KR Ledesma, KT Chang, M Nikolaou, VH Tam
+  journal: Journal of antimicrobial chemotherapy 66 (5), 1079-1086, 2011
+  title: 'Modelling biphasic killing of fluoroquinolones: guiding optimal dosing regimen
+    design'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:k_IJM867U9cC
   year: '2011'
 - author: VH Tam, M Nikolaou
   journal: PLoS computational biology 7 (1), e1001043, 2011
   title: 'A novel approach to pharmacodynamic assessment of antimicrobial agents:
     new insights to dosing regimen design'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:qxL8FJ1GzNcC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:qxL8FJ1GzNcC
   year: '2011'
-- author: S Gupta, M Nikolaou, L Saputelli, C Bravo
-  journal: SPE Intelligent Energy International Conference and Exhibition, SPE-181009-MS,
-    2016
-  title: 'ESP health monitoring KPI: a real-time predictive analytics application'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:VLnqNzywnoUC
-  year: '2016'
-- author: B Guo, K Abdelraouf, KR Ledesma, KT Chang, M Nikolaou, VH Tam
-  journal: Antimicrobial agents and chemotherapy 55 (10), 4601-4605, 2011
-  title: Quantitative impact of neutrophils on bacterial clearance in a murine pneumonia
-    model
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:RGFaLdJalmkC
-  year: '2011'
-- author: S Bhattacharya, M Nikolaou, MJ Economides
-  journal: Journal of Natural Gas Science and Engineering 9, 184-195, 2012
-  title: Unified Fracture Design for very low permeability reservoirs
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:rO6llkc54NcC
-  year: '2012'
-- author: TP Lim, KR Ledesma, KT Chang, JG Hou, AL Kwa, M Nikolaou, JP Quinn, ...
-  journal: Antimicrobial agents and chemotherapy 52 (8), 2898-2904, 2008
-  title: Quantitative Assessment of Combination Antimicrobial Therapy against Multidrug-Resistant
-    Acinetobacter baumannii
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:kNdYIx-mwKoC
-  year: '2008'
+- author: "JE Gravdal, M Nikolaou, \xD8 Breyholtz, LA Carlsen"
+  journal: SPE Drilling & Completion 25 (04), 577-584, 2010
+  title: Improved kick management during MPD by real-time pore-pressure estimation
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:hC7cP41nSMkC
+  year: '2010'
+- author: HA Kuzma, K Boyle, S Pullman, MT Reagan, GJ Moridis, TA Blasingame, ...
+  journal: AGU Fall Meeting Abstracts 2010, IN53A-1155, 2010
+  title: "SeTES, a Self-Teaching Expert System for the analysis, design and prediction\
+    \ of gas production from shales and a prototype for a new generation of Expert\
+    \ Systems in the Earth \u2026"
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:1qzjygNMrQYC
+  year: '2010'
+- author: P Bhagunde, KT Chang, R Singh, V Singh, KW Garey, M Nikolaou, ...
+  journal: Antimicrobial agents and chemotherapy 54 (11), 4739-4743, 2010
+  title: Mathematical modeling to characterize the inoculum effect
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:NMxIlDl6LWMC
+  year: '2010'
 - author: "\xD8 Breyholtz, G Nygaard, M Nikolaou"
   journal: Proceedings of the 2010 American Control Conference, 442-447, 2010
   title: Automatic control of managed pressure drilling
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:R3hNpaxXUhUC
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:R3hNpaxXUhUC
   year: '2010'
-- author: ML Darby, M Harmse, M Nikolaou
-  journal: IFAC Proceedings Volumes 42 (11), 86-98, 2009
-  title: 'MPC: Current practice and challenges'
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:4JMBOYKVnBMC
-  year: '2009'
-- author: WJ Foster, N Dowla, SY Joshi, M Nikolaou
-  journal: Graefe's Archive for Clinical and Experimental Ophthalmology 248 (1), 31-36,
+- author: K Abrams, KS Buchanan, MA Case, D NeJaime, SK Katyal, T Ruskola
+  journal: ''
+  title: All Rights Reserved.
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:HtEfBTGE9r8C
+  year: '2010'
+- author: "\xD8 Breyholtz, G Nygaard, H Siahaan, M Nikolaou"
+  journal: SPE Intelligent Energy International Conference and Exhibition, SPE-128151-MS,
     2010
-  title: The fluid mechanics of scleral buckling surgery for the repair of retinal
-    detachment
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:TQgYirikUcIC
+  title: 'Managed pressure drilling: A multi-level control approach'
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:Wp0gIr-vW9MC
   year: '2010'
-- author: VH Tam, AN Schilling, K Poole, M Nikolaou
-  journal: Journal of antimicrobial chemotherapy 60 (6), 1302-1309, 2007
-  title: Mathematical modelling response of Pseudomonas aeruginosa to meropenem
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=50&citation_for_view=mLs4L3UAAAAJ:Zph67rFs4hoC
-  year: '2007'
+- author: M Nikolaou
+  journal: Journal of Natural Gas Science and Engineering 2 (1), 1-20, 2010
+  title: Optimizing the logistics of compressed natural gas transportation by marine
+    vessels
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:isC4tDSrTZIC
+  year: '2010'
