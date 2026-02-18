@@ -4,13 +4,25 @@ title: Team
 ---
 <div class="page-header">
     <h2>Lab Members</h2>
-    <p>Current researchers and alumni of the Nikolaou Research Group.</p>
+    <p>Current researchers and over 25 successful alumni of the Nikolaou Research Group who have landed careers in oil and gas, pharmaceuticals, semiconductor design, and academia.</p>
 </div>
 
-<div class="team-list">
-  <ul>
-    {% for student in site.data.students %}
-      <li><strong>{{ student.name }}</strong> &mdash; <em>{{ student.role }}</em></li>
-    {% endfor %}
-  </ul>
+<div class="team-section">
+    <h3>Current Students</h3>
+    <ul class="team-list">
+      {% for student in site.data.students.current %}
+        <li><strong>{{ student.name }}</strong> &mdash; <em>{{ student.role }}</em></li>
+      {% endfor %}
+    </ul>
+</div>
+
+<div class="team-section">
+    <h3>Alumni</h3>
+    <ul class="team-list">
+      {% for student in site.data.students.alumni %}
+        <li><strong>{{ student.name }}</strong> &mdash; <em>{{ student.role }}</em></li>
+      {% else %}
+        <li><em>Alumni list is being updated.</em></li>
+      {% endfor %}
+    </ul>
 </div>
