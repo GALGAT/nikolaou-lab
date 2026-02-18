@@ -1,4 +1,4 @@
-/* Core Variables & Reset */
+/* --- Core Variables & Reset --- */
 :root {
     --theme-color: #f1be6c; 
     --theme-hover: #e5aa14; 
@@ -27,19 +27,30 @@ body {
     margin: 0 auto;
 }
 
-/* Header & Navigation */
+/* --- Header & Navigation --- */
 header {
     background-color: var(--theme-color);
-    color: var(--text-dark);
-    padding: 1.5rem 0;
     width: 100%;
+    /* Lowered positioning: move content down from the top */
+    padding: 50px 0 20px 0; 
 }
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Brand Left, Nav Right */
+    align-items: flex-end; /* Aligns Nav baseline with text bottom */
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Brand Grouping */
+.logo-wrapper {
+    display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
 }
 
 .header-logo {
@@ -47,123 +58,72 @@ header {
     width: auto;
 }
 
-.logo-wrapper {
+/* Fixed gap between Name and University */
+.logo-text {
     display: flex;
-    align-items: center;
-    gap: 0.8rem;
+    flex-direction: column;
 }
 
 .logo-text h1 {
-    font-size: 1.6rem;
-    letter-spacing: -0.5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1; /* Tightens the gap above */
 }
 
 .logo-text .subtitle {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.1; /* Tightens the gap below */
     opacity: 0.9;
     display: block;
-    margin-top: 0.2rem;
+}
+
+/* Navigation Links */
+nav {
+    display: flex;
+    gap: 25px;
 }
 
 nav a {
     color: var(--text-dark);
     text-decoration: none;
-    margin-left: 1.5rem;
-    font-weight: 600;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Header Container: Spacing and Alignment */
-.header-container {
-    max-width: 1200px; /* Or use '100%' for true edge-to-edge */
-    margin: 0 auto;
-    padding: 40px 20px 20px 20px; /* Added top padding to make everything 'lower' */
-    display: flex;
-    justify-content: space-between; /* Logo left, Nav right */
-    align-items: flex-end; /* Aligns nav links with the bottom of the logo */
-}
-
-/* Brand Grouping */
-.header-brand {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-}
-
-.header-logo {
-    height: 70px; /* Adjust based on your logo size */
-    margin-right: 15px;
-}
-
-/* Fixing the gap between Group Name and University */
-.header-title-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.header-name {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin: 0;
-    line-height: 1.1; /* Tightens the gap above university */
-}
-
-.header-sub {
-    font-size: 1rem;
-    margin: 0;
-    line-height: 1.1; /* Tightens the gap below name */
-    opacity: 0.9;
-}
-
-/* Navigation Links */
-.header-nav {
-    display: flex;
-    gap: 25px;
-}
-
-.header-nav a {
-    text-decoration: none;
-    color: #333;
     font-weight: 600;
     font-size: 1.05rem;
     padding-bottom: 5px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.header-nav a:hover {
-    color: var(--theme-color);
-    border-bottom: 2px solid var(--theme-color);
+nav a:hover {
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
 }
 
-/* --- Main Content Area (Updated to Full Size) --- */
+/* --- Main Content --- */
 main {
     background-color: var(--white);
-    width: 100%;          /* Spans full screen width */
-    margin: 0;            /* Removes the 2rem top/bottom gap */
-    padding: 4rem 0;      /* Vertical padding only; horizontal handled by .container */
-    box-shadow: none;     /* Removes the "card" shadow */
-    border-radius: 0;     /* Removes rounded corners */
-}
-main {
+    width: 100%;
+    padding: 4rem 0;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
 }
+
 /* Homepage Specifics */
 .hero {
     text-align: center;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #eaeaea;
 }
 
 .hero h2 {
     font-size: 2.5rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.hero h2 span {
     color: var(--theme-color);
-    margin-bottom: 0.5rem;
+    border-bottom: 3px solid var(--theme-color);
 }
 
 .homepage-grid {
@@ -172,6 +132,7 @@ main {
     gap: 3rem;
 }
 
+/* Buttons */
 .btn {
     display: inline-block;
     background-color: var(--theme-color);
@@ -179,227 +140,12 @@ main {
     padding: 0.7rem 1.5rem;
     text-decoration: none;
     border-radius: 4px;
-    margin-top: 1rem;
     font-weight: bold;
+    transition: background 0.3s;
 }
 
 .btn:hover {
     background-color: var(--theme-hover);
-}
-
-/* News List */
-.news-list {
-    list-style: none;
-}
-
-.news-list li {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px dashed #ccc;
-}
-
-.news-date {
-    font-size: 0.85rem;
-    color: var(--text-light);
-}
-
-.news-list a {
-    color: var(--theme-color);
-    text-decoration: none;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: #222;
-    color: #ccc;
-    font-size: 0.9rem;
-    width: 100%;
-}
-
-/* New Page Styles */
-.page-header {
-    margin-bottom: 2rem;
-    border-bottom: 2px solid var(--theme-color);
-    padding-bottom: 1rem;
-}
-
-.page-header h2 {
-    color: var(--theme-color);
-    font-size: 2rem;
-}
-
-/* --- Research Cards --- */
-.research-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
-    gap: 2.5rem;
-    margin-top: 2.5rem;
-}
-
-.research-card {
-    background: var(--white);
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    border: 1px solid #f0f0f0;
-    border-top: 5px solid var(--theme-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.research-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-}
-
-.research-card h3 {
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    color: var(--text-dark);
-}
-
-/* --- PI Profile Layout --- */
-.pi-profile {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    margin-bottom: 4rem;
-    background: var(--bg-light);
-    padding: 2rem;
-    border-radius: 6px;
-    border-left: 4px solid var(--theme-color);
-}
-
-.pi-photo img {
-    width: 200px;
-    height: auto;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.pi-socials {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.social-icon {
-    width: 28px;
-    height: 28px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-    filter: grayscale(100%);
-    opacity: 0.8;
-}
-
-.social-icon:hover {
-    transform: scale(1.1);
-    opacity: 1;
-    filter: grayscale(0%);
-}
-
-/* --- Consolidated Mobile Responsiveness --- */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem 0;
-    }
-
-    .logo-wrapper {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .header-logo {
-        height: 60px;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0;
-        gap: 10px;
-        width: 100%;
-    }
-
-    nav a {
-        margin: 0;
-        padding: 8px 12px;
-        background: rgba(0, 0, 0, 0.05);
-        border-radius: 4px;
-        font-size: 0.9rem;
-    }
-
-    .homepage-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .research-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .pi-profile {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .pi-photo img {
-        width: 150px;
-        margin-bottom: 1rem;
-    }
-
-    .hero h2 {
-        font-size: 1.8rem;
-    }
-
-    .pi-socials {
-        justify-content: center;
-    }
-}
-/* --- Publications Search Bar Fix --- */
-.search-container {
-    margin: 2rem 0;     /* Space above and below the search bar */
-    width: 100%;        /* Ensures the wrapper fills the container */
-    display: block;
-}
-
-#pubSearch {
-    width: 100%;               /* Forces the bar to stretch to full width */
-    padding: 14px 20px;        /* Increases height for a modern feel */
-    font-size: 1.1rem;         /* Easier to read */
-    border: 2px solid #eee;    /* Light, clean border */
-    border-radius: 8px;        /* Matches your research card style */
-    color: var(--text-dark);
-    transition: all 0.3s ease; /* Smooth transition for focus */
-    outline: none;
-}
-
-/* Hover & Focus Effects */
-#pubSearch:hover {
-    border-color: #ddd;
-}
-
-#pubSearch:focus {
-    border-color: var(--theme-color);
-    box-shadow: 0 0 8px rgba(241, 190, 108, 0.2); /* Subtle glow */
-}
-
-/* Styling the placeholder text */
-#pubSearch::placeholder {
-    color: #999;
-    font-style: italic;
-}
-
-/* Hero Span for Emphasis */
-.hero h2 span {
-    color: var(--theme-color);
-    border-bottom: 3px solid var(--theme-color);
 }
 
 .btn-secondary {
@@ -419,63 +165,18 @@ footer {
     color: #fff;
 }
 
-/* Impact Metrics Grid */
-.impact-metrics {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.metric-card {
-    text-align: center;
-    padding: 1.5rem;
-    background: var(--bg-light);
-    border-radius: 8px;
-    border-bottom: 4px solid var(--theme-color);
-}
-
-.metric-value {
-    display: block;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--text-dark);
-}
-
-.metric-label {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: var(--text-light);
-}
-
-/* News Card Styling */
-.news-card {
-    margin-bottom: 1.2rem !important;
-    padding: 1rem !important;
-    background: #fff;
-    border-radius: 6px;
-    border-left: 3px solid #eee;
-    transition: border-color 0.3s;
-}
-
-.news-card:hover {
-    border-left-color: var(--theme-color);
-}
-/* Pillars Container - Modern Sidebar style */
+/* --- Pillars & Metrics --- */
 .pillars-container {
     background: #fdfdfd; 
     padding: 1.5rem 2.5rem;
     border-radius: 8px;
-    border-left: 5px solid #f1c40f; /* Lab gold theme */
+    border-left: 5px solid var(--theme-color);
     margin: 2.5rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.03);
 }
 
 .pillar-bullets {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .pillar-bullets li {
@@ -487,34 +188,53 @@ footer {
     transition: all 0.3s ease;
 }
 
-.pillar-bullets li:last-child {
-    margin-bottom: 0;
-}
-
-/* Custom Marker - The Arrow Icon */
 .pillar-bullets li::before {
     content: "→"; 
     position: absolute;
     left: 0;
-    color: #f1c40f; /* Theme color */
+    color: var(--theme-color);
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-/* Interactivity: Sublte lift on hover */
 .pillar-bullets li:hover {
     transform: translateX(8px);
-    color: #000;
 }
 
-.pillar-bullets li strong {
-    color: #000;
-    font-size: 1.05rem;
-    display: block; /* Moves the description to a new line for cleaner reading */
-    margin-bottom: 0.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+/* --- News & Research Cards --- */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    gap: 2.5rem;
 }
+
+.research-card {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border-top: 5px solid var(--theme-color);
+    transition: transform 0.3s ease;
+}
+
+.research-card:hover {
+    transform: translateY(-8px);
+}
+
+.news-card {
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    border-left: 3px solid #eee;
+    transition: border-color 0.3s;
+}
+
+.news-card:hover {
+    border-left-color: var(--theme-color);
+}
+
+/* --- Form Styles --- */
 .lab-form {
     background: var(--bg-light);
     padding: 2rem;
@@ -526,32 +246,43 @@ footer {
     margin-bottom: 1.2rem;
 }
 
-.form-group label {
-    display: block;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-bottom: 0.4rem;
-}
-
-.form-group input, 
-.form-group textarea {
+.form-group input, .form-group textarea {
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-family: inherit;
 }
 
-.char-counter {
-    text-align: right;
-    font-size: 0.8rem;
-    color: var(--text-light);
-    margin-top: 0.2rem;
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #222;
+    color: #ccc;
+    font-size: 0.9rem;
 }
 
-/* Mobile Responsiveness */
+/* --- Mobile Responsiveness --- */
 @media (max-width: 768px) {
-    .contact-grid {
-        grid-template-columns: 1fr !important;
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    nav {
+        margin-top: 1.5rem;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homepage-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn-secondary {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
