@@ -41,14 +41,28 @@ header {
     flex-wrap: wrap;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.2rem;
+.logo-wrapper {
+    display: flex;
+    align-items: center; /* Perfectly centers the image and text vertically */
+    gap: 1.2rem; /* Gives excellent breathing room between the logo and text */
 }
 
-.logo .subtitle {
-    font-size: 0.9rem;
+.header-logo {
+    height: 70px; /* Scaled up to match the two lines of text */
+    width: auto;
+}
+
+.logo-text h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    line-height: 1.1; /* Keeps the title and subtitle tightly grouped */
+}
+
+.logo-text .subtitle {
+    font-size: 0.95rem;
     opacity: 0.9;
+    display: block;
+    margin-top: 0.2rem;
 }
 
 nav a {
