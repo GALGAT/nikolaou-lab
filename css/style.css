@@ -332,3 +332,70 @@ footer {
     color: #999;
     font-style: italic;
 }
+
+/* Hero Span for Emphasis */
+.hero h2 span {
+    color: var(--theme-color);
+    border-bottom: 3px solid var(--theme-color);
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border: 2px solid var(--theme-color);
+    color: var(--text-dark);
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--theme-color);
+    color: #fff;
+}
+
+/* Impact Metrics Grid */
+.impact-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.metric-card {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+    border-bottom: 4px solid var(--theme-color);
+}
+
+.metric-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--text-dark);
+}
+
+.metric-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-light);
+}
+
+/* News Card Styling */
+.news-card {
+    margin-bottom: 1.2rem !important;
+    padding: 1rem !important;
+    background: #fff;
+    border-radius: 6px;
+    border-left: 3px solid #eee;
+    transition: border-color 0.3s;
+}
+
+.news-card:hover {
+    border-left-color: var(--theme-color);
+}
