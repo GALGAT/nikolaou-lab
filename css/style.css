@@ -1,7 +1,7 @@
 /* Core Variables & Reset */
 :root {
-    --theme-color: #f1be6c; /* Yellow-orangish theme */
-    --theme-hover: #e5aa14; /* Slightly darker for hover states */
+    --theme-color: #f1be6c; 
+    --theme-hover: #e5aa14; 
     --text-dark: #333333;
     --text-light: #666666;
     --bg-light: #f4f4f4;
@@ -30,8 +30,9 @@ body {
 /* Header & Navigation */
 header {
     background-color: var(--theme-color);
-    color: var(--text-dark); /* Changed to dark text for contrast against yellow */
+    color: var(--text-dark);
     padding: 1.5rem 0;
+    width: 100%;
 }
 
 .header-content {
@@ -41,21 +42,20 @@ header {
     flex-wrap: wrap;
 }
 
-
 .header-logo {
-    height: 70px; /* Reduced from 70px for better balance */
+    height: 70px;
     width: auto;
 }
 
 .logo-wrapper {
     display: flex;
     align-items: center;
-    gap: 0.8rem; /* Tighter gap for a more cohesive look */
+    gap: 0.8rem;
 }
 
 .logo-text h1 {
-    font-size: 1.6rem; /* Slightly smaller to prevent mobile wrapping */
-    letter-spacing: -0.5px; /* Makes the title look sharper */
+    font-size: 1.6rem;
+    letter-spacing: -0.5px;
 }
 
 .logo-text .subtitle {
@@ -66,26 +66,29 @@ header {
 }
 
 nav a {
-    color: var(--text-dark); /* Changed to dark text */
+    color: var(--text-dark);
     text-decoration: none;
     margin-left: 1.5rem;
-    font-weight: 600; /* Made slightly bolder to stand out */
+    font-weight: 600;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Area */
+/* --- Main Content Area (Updated to Full Size) --- */
 main {
     background-color: var(--white);
-    padding: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    border-radius: 8px;
+    width: 100%;          /* Spans full screen width */
+    margin: 0;            /* Removes the 2rem top/bottom gap */
+    padding: 4rem 0;      /* Vertical padding only; horizontal handled by .container */
+    box-shadow: none;     /* Removes the "card" shadow */
+    border-radius: 0;     /* Removes rounded corners */
 }
-
+main {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
 /* Homepage Specifics */
 .hero {
     text-align: center;
@@ -109,7 +112,7 @@ main {
 .btn {
     display: inline-block;
     background-color: var(--theme-color);
-    color: var(--text-dark); /* Changed to dark text */
+    color: var(--text-dark);
     padding: 0.7rem 1.5rem;
     text-decoration: none;
     border-radius: 4px;
@@ -149,6 +152,7 @@ footer {
     background-color: #222;
     color: #ccc;
     font-size: 0.9rem;
+    width: 100%;
 }
 
 /* New Page Styles */
@@ -163,10 +167,9 @@ footer {
     font-size: 2rem;
 }
 
-/* --- Research Cards (Classy Redesign) --- */
+/* --- Research Cards --- */
 .research-grid {
     display: grid;
-    /* This minmax change (400px) forces a perfect 2x2 grid on desktop */
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
     gap: 2.5rem;
     margin-top: 2.5rem;
@@ -175,82 +178,22 @@ footer {
 .research-card {
     background: var(--white);
     padding: 2.5rem;
-    border-radius: 12px; /* Smoother, rounder corners */
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06); /* Very soft, elegant shadow */
-    border: 1px solid #f0f0f0; /* Ultra-light border for crispness */
-    border-top: 5px solid var(--theme-color); /* Sleek top accent line */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation timing */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 1px solid #f0f0f0;
+    border-top: 5px solid var(--theme-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* The Hover "Lift" Effect */
 .research-card:hover {
-    transform: translateY(-8px); /* Lifts the card up slightly */
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12); /* Deepens the shadow underneath */
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .research-card h3 {
     margin-bottom: 1rem;
     font-size: 1.4rem;
     color: var(--text-dark);
-    line-height: 1.3;
-}
-
-.research-card p {
-    color: var(--text-light);
-    line-height: 1.7;
-    margin-bottom: 0;
-}
-
-/* Publications Search Bar */
-.search-container {
-    margin-bottom: 2rem;
-}
-
-#pubSearch {
-    width: 100%;
-    padding: 12px 15px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-#pubSearch:focus {
-    outline: none;
-    border-color: var(--theme-color);
-}
-
-/* Publications List Formatting */
-.pub-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.pub-list li.publication-item {
-    margin-bottom: 1.5rem;
-    padding-left: 1.5rem;
-    text-indent: -1.5rem; /* Creates the hanging indent effect */
-    line-height: 1.6;
-    background: transparent; /* Removes the old box background */
-}
-
-/* Adds the tiny chevron arrow before each item */
-.pub-list li.publication-item::before {
-    content: "› ";
-    color: #666;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-/* Formats the URL to match the image */
-.pub-link {
-    color: var(--theme-color);
-    text-decoration: none;
-    word-break: break-all; /* Prevents long URLs from breaking the page width */
-}
-
-.pub-link:hover {
-    text-decoration: underline;
 }
 
 /* --- PI Profile Layout --- */
@@ -266,119 +209,34 @@ footer {
 }
 
 .pi-photo img {
-    width: 200px; /* Keeps the image at a nice, consistent size */
+    width: 200px;
     height: auto;
     border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.pi-details h3 {
-    font-size: 1.8rem;
-    color: var(--text-dark);
-    margin-bottom: 0.2rem;
+.pi-socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
 }
 
-.pi-details .pi-title {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    margin-bottom: 1.2rem;
-    line-height: 1.4;
+.social-icon {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    filter: grayscale(100%);
+    opacity: 0.8;
 }
 
-.pi-details p {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
+.social-icon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    filter: grayscale(0%);
 }
 
-.pi-email {
-    color: #333333; /* Uses the red color shown in your screenshot */
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.pi-email:hover {
-    text-decoration: underline;
-}
-
-/* --- Final Polished Mobile Responsiveness --- */
+/* --- Consolidated Mobile Responsiveness --- */
 @media (max-width: 768px) {
-    /* 1. Center the entire header */
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem 0;
-    }
-
-    /* 2. Stack logo above text and center it */
-    .logo-wrapper {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 1.5rem;
-        gap: 0.5rem;
-    }
-
-    .header-logo {
-        height: 65px; /* Slightly larger for visibility */
-    }
-
-    .logo-text h1 {
-        font-size: 1.5rem;
-        line-height: 1.2;
-    }
-
-    .logo-text .subtitle {
-        font-size: 0.85rem;
-    }
-
-    /* 3. Transform Nav into a clean horizontal row of buttons */
-    nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; /* Allows links to move to a second row if needed */
-        margin-left: 0;
-        width: 100%;
-        gap: 8px;
-    }
-
-    nav a {
-        margin: 0;
-        padding: 8px 12px;
-        background: rgba(0, 0, 0, 0.05); /* Subtle button background */
-        border-radius: 6px;
-        font-size: 0.85rem;
-        font-weight: 600;
-        color: var(--text-dark);
-        text-decoration: none;
-    }
-
-    nav a:hover {
-        background: rgba(0, 0, 0, 0.1);
-        text-decoration: none;
-    }
-
-    /* 4. Fix Research Cards for small screens */
-    .research-grid {
-        grid-template-columns: 1fr; /* Single column only */
-        gap: 1.2rem;
-    }
-
-    .research-card {
-        padding: 1.5rem; /* Less padding to save horizontal space */
-    }
-
-    /* 5. Clean up the PI Profile on mobile */
-    .pi-profile {
-        padding: 1.5rem;
-        text-align: center;
-    }
-
-    .pi-photo img {
-        width: 140px; /* Scaled for phone screens */
-    }
-}
-/* --- Final Mobile Responsiveness --- */
-@media (max-width: 768px) {
-    /* 1. Center Header & Stack Logo/Text */
     .header-content {
         flex-direction: column;
         align-items: center;
@@ -392,39 +250,32 @@ footer {
     }
 
     .header-logo {
-        height: 60px; /* Prevents the logo from taking up the whole screen */
-        margin-bottom: 0.5rem;
+        height: 60px;
     }
 
-    .logo-text h1 {
-        font-size: 1.4rem; /* Keeps the title from wrapping awkwardly */
-    }
-
-    /* 2. Center Navigation and make them look like buttons */
     nav {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin-left: 0;
         gap: 10px;
+        width: 100%;
     }
 
     nav a {
         margin: 0;
         padding: 8px 12px;
-        background: rgba(0, 0, 0, 0.05); /* Subtle button feel */
+        background: rgba(0, 0, 0, 0.05);
         border-radius: 4px;
         font-size: 0.9rem;
     }
 
-    /* 3. Stack Homepage Sections: About on top of News */
     .homepage-grid {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
     }
 
-    /* 4. Fix Research & Team Cards */
     .research-grid {
         grid-template-columns: 1fr;
     }
@@ -439,53 +290,11 @@ footer {
         width: 150px;
         margin-bottom: 1rem;
     }
-}
-@media (max-width: 768px) {
-    .homepage-grid {
-        /* This forces the two sections to stack vertically */
-        display: flex;
-        flex-direction: column; 
-        gap: 3rem;
-    }
 
-    .bio-section {
-        /* Ensures the group description is read first */
-        order: 1; 
-        text-align: left; /* Keeps the professional look on mobile */
-    }
-
-    .news-section {
-        order: 2;
-    }
-    
-    /* Make the hero text scale down even more on very small screens */
     .hero h2 {
-        font-size: 1.8rem !important;
+        font-size: 1.8rem;
     }
-}
-/* --- PI Social Icons Styling --- */
-.pi-socials {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px; /* Adds space after the email line */
-}
 
-.social-icon {
-    width: 28px; /* Classic, readable size */
-    height: 28px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-    filter: grayscale(100%); /* Optional: makes them black/white to match the theme */
-    opacity: 0.8;
-}
-
-.social-icon:hover {
-    transform: scale(1.1); /* Subtle "pop" on hover */
-    opacity: 1;
-    filter: grayscale(0%); /* Returns color on hover */
-}
-
-/* Ensure centering on mobile */
-@media (max-width: 768px) {
     .pi-socials {
         justify-content: center;
     }
