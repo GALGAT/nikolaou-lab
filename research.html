@@ -2,16 +2,34 @@
 layout: default
 title: Research
 ---
+
 <div class="page-header">
-    <h2>Research Areas</h2>
-    <p>Our lab focuses on solving complex engineering problems through computational modeling and data science.</p>
+    <h2 style="margin-bottom: 0.5rem;">Research Areas</h2>
+    <p style="font-size: 1.1rem; color: var(--text-light);">
+        Our lab focuses on solving complex engineering problems through computational modeling and data science.
+    </p>
 </div>
 
 <div class="research-grid">
-  {% for item in site.data.research %}
+    
     <div class="research-card">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
+        <h3>Intelligent Systems & Feedback Control</h3>
+        <p>Developing fundamental methods for the intelligent design and operation of engineered systems. We utilize mathematical modeling, optimization, statistics, and feedback loops to improve safety, reliability, and performance across various industries, from microchip fabrication to snack food production.</p>
     </div>
-  {% endfor %}
+
+    <div class="research-card">
+        <h3>Effective Development and Use of Antibiotics</h3>
+        <p>Designing clinical practices that maximize the killing effect of antibiotics on infectious bacteria while minimizing toxicity for human patients. This highly interdisciplinary work bridges engineering and medicine to optimize dosing strategies.</p>
+    </div>
+
+    <div class="research-card">
+        <h3>Sustainable Energy Solutions</h3>
+        <p>Addressing critical global challenges through the generation of clean energy and the development of efficient, sustainable energy storage systems.</p>
+    </div>
+
+    <div class="research-card">
+        <h3>Applied Research & Industry Collaboration</h3>
+        <p>Collaborating with field practitioners to test fundamental solutions on real-world problems. Solutions are validated using computer simulations, laboratory experiments, or full-scale tests in sectors ranging from oil and gas and refining to pharmaceuticals and semiconductor manufacturing.</p>
+    </div>
+
 </div>
