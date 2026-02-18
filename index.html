@@ -4,33 +4,50 @@ title: Home
 ---
 
 <div class="hero">
-    <h2 style="font-size: 2.1rem; line-height: 1.2; margin-bottom: 1rem;">
-        Welcome to the Nikolaou Research Group
-    </h2>
-    <p style="font-size: 1.1rem; color: var(--text-light); max-width: 800px; margin: 0 auto;">
-        Innovating at the intersection of computer-aided process engineering, mathematical modeling, and data science.
+    <h2 class="animate-text">Building the <span>Brains</span> of Engineered Systems</h2>
+    <p style="font-size: 1.2rem; color: var(--text-light); max-width: 850px; margin: 0 auto; line-height: 1.6;">
+        We translate complex theoretical frameworks into intelligent solutions for 
+        <strong>chemical plants</strong>, <strong>healthcare</strong>, and <strong>sustainable energy</strong>.
     </p>
+    <div class="hero-cta" style="margin-top: 2rem;">
+        <a href="{{ '/research.html' | relative_url }}" class="btn">Our Impact</a>
+        <a href="{{ '/publications.html' | relative_url }}" class="btn-secondary">Latest Research</a>
+    </div>
 </div>
 
 <div class="homepage-grid">
     <section class="bio-section">
-        <h3>About the Nikolaou's Research Group</h3>
-        <p>Our research aims at the development of fundamental methods for the intelligent design and operation of engineered systems, translating theoretical frameworks into solutions for real-world problems. Whether dealing with a chemical plant, hydrocarbon production, or a medicated human patient, intelligent design offers distinct advantages in safety, quality, reliability, and performance.</p>
+        <h3 class="section-title">Research Philosophy</h3>
+        <p>Our work is rooted in the development of fundamental methods for the intelligent design and operation of engineered systems. By building the "digital brains" of these systems, we offer distinct advantages in safety, quality, and performance.</p>
 
-        <p>We employ quantitative analysis tools—including mathematical modeling, optimization, statistics, and feedback control—to build the "brains" of these systems. With a strong interdisciplinary flavor, our work relies on collaboration with domain experts and field practitioners to test solutions via computer simulations, laboratory experiments, and full-scale implementations.</p>
-        <p><strong>Contact:</strong> <a href="mailto:nikolaou@uh.edu">nikolaou@uh.edu</a></p>
+        <div class="impact-metrics">
+            <div class="metric-card">
+                <span class="metric-value">{{ site.data.publications.size }}</span>
+                <span class="metric-label">Publications</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">4+</span>
+                <span class="metric-label">Core Verticals</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-value">1987-2025</span>
+                <span class="metric-label">Research Legacy</span>
+            </div>
+        </div>
+
+        <p>We leverage quantitative tools—mathematical modeling, optimization, and feedback control—to bridge the gap between theory and full-scale implementation.</p>
     </section>
 
     <section class="news-section">
-        <h3>Latest News & Updates</h3>
+        <h3 class="section-title">Lab Pulse</h3>
         <ul class="news-list">
           {% for item in site.data.news limit:5 %}
-            <li>
-                <span class="news-date">{{ item.date }}</span><br>
-                <a href="{{ item.link }}" target="_blank"><strong>{{ item.title }}</strong></a>
+            <li class="news-card">
+                <span class="news-date">{{ item.date | date: "%b %d, %Y" }}</span>
+                <a href="{{ item.link }}" target="_blank" class="news-title">{{ item.title }}</a>
             </li>
           {% else %}
-            <li><em>News feed is currently updating. Check back soon!</em></li>
+            <li><em>The news feed is currently being refreshed.</em></li>
           {% endfor %}
         </ul>
     </section>
