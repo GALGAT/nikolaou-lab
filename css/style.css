@@ -48,14 +48,19 @@ header {
 }
 
 .header-logo {
-    height: 70px; /* Scaled up to match the two lines of text */
+    height: 55px; /* Reduced from 70px for better balance */
     width: auto;
 }
 
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Tighter gap for a more cohesive look */
+}
+
 .logo-text h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0;
-    line-height: 1.1; /* Keeps the title and subtitle tightly grouped */
+    font-size: 1.6rem; /* Slightly smaller to prevent mobile wrapping */
+    letter-spacing: -0.5px; /* Makes the title look sharper */
 }
 
 .logo-text .subtitle {
