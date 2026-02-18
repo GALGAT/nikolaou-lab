@@ -166,30 +166,54 @@ footer {
     font-size: 1.2rem;
 }
 
-/* Publications List */
-.pub-list {
-    list-style: none;
+/* Publications Search Bar */
+.search-container {
+    margin-bottom: 2rem;
 }
 
-.pub-list li {
-    background: var(--bg-light);
-    margin-bottom: 1rem;
-    padding: 1rem;
+#pubSearch {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.citation-count {
-    color: var(--text-light);
-    font-size: 0.9rem;
+#pubSearch:focus {
+    outline: none;
+    border-color: var(--uh-red);
 }
 
-/* Team List */
-.team-list ul {
-    list-style: none;
+/* Publications List Formatting */
+.pub-list {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.team-list li {
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #eaeaea;
-    font-size: 1.1rem;
+.pub-list li.publication-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem; /* Creates the hanging indent effect */
+    line-height: 1.6;
+    background: transparent; /* Removes the old box background */
+}
+
+/* Adds the tiny chevron arrow before each item */
+.pub-list li.publication-item::before {
+    content: "› ";
+    color: #666;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Formats the URL to match the image */
+.pub-link {
+    color: var(--uh-red);
+    text-decoration: none;
+    word-break: break-all; /* Prevents long URLs from breaking the page width */
+}
+
+.pub-link:hover {
+    text-decoration: underline;
 }
