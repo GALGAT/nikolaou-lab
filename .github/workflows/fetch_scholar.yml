@@ -25,49 +25,60 @@ jobs:
         run: pip install requests pyyaml
 
       - name: Fetch Scholar Data via SerpApi
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: |
-          python -c "
-          import os, yaml, requests
-          
-          api_key = os.environ.get('SERPAPI_KEY')
-          author_id = 'mLs4L3UAAAAJ'
-          pubs = []
-          start = 0
-      
-          while True:
-              url = f'https://serpapi.com/search.json?engine=google_scholar_author&author_id={author_id}&sort=pubdate&api_key={api_key}&start={start}&num=100'
-              response = requests.get(url)
-              data = response.json()
-              
-              articles = data.get('articles', [])
-              if not articles:
-                  break
-                  
-              for pub in articles:
-                  pubs.append({
-                      'title': pub.get('title', ''),
-                      'year': pub.get('year', ''),
-                      'author': pub.get('authors', ''),
-                      'journal': pub.get('publication', ''),
-                      'url': pub.get('link', '')
-                  })
-                  
-              # Increment start for the next page
-              start += 100
-              
-              # Stop if we have fetched everything or if there's no next page token
-              if 'next_page_token' not in data.get('serpapi_pagination', {}):
-                  break
-                  
-          with open('_data/publications.yml', 'w') as f:
-              yaml.dump(pubs, f, sort_keys=False)
-          "
+      env:
+        SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      run: |
+        python -c "
+        import os, yaml, requests, time
     
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        api_key = os.environ.get('SERPAPI_KEY')
+        author_id = 'mLs4L3UAAAAJ'
+        all_pubs = []
+        start = 0
+    
+        while True:
+            # We fetch in batches of 100 (the API maximum)
+            url = f'https://serpapi.com/search.json?engine=google_scholar_author&author_id={author_id}&sort=pubdate&api_key={api_key}&start={start}&num=100'
+            response = requests.get(url)
+            data = response.json()
+            
+            articles = data.get('articles', [])
+            if not articles:
+                break
+                
+            for pub in articles:
+                all_pubs.append({
+                    'title': pub.get('title', ''),
+                    'year': pub.get('year', ''),
+                    'author': pub.get('authors', ''),
+                    'journal': pub.get('publication', ''),
+                    'url': pub.get('link', '')
+                })
+            
+            print(f'Fetched {len(all_pubs)} articles so far...')
+    
+            # Logic to decide if we keep going:
+            # 1. If we got fewer than 100 articles, we've hit the end of the list.
+            if len(articles) < 100:
+                break
+            
+            # 2. Increment start for the next page
+            start += 100
+            
+            # 3. Safety break to prevent infinite loops (if total > 500)
+            if start > 500:
+                break
+                
+            time.sleep(1) # Be nice to the API
+    
+        os.makedirs('_data', exist_ok=True)
+        with open('_data/publications.yml', 'w') as f:
+            yaml.dump(all_pubs, f, sort_keys=False)
+        "
+    
+        - name: Commit and Push changes
+          run: |
+           git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add _data/publications.yml
           git diff --quiet && git diff --staged --quiet || (git commit -m "Automated Google Scholar update via SerpApi" && git push)
