@@ -6,8 +6,13 @@ title: Publications
     <h2>Selected Publications</h2>
 </div>
 
-<div class="search-container">
-    <input type="text" id="pubSearch" placeholder="Search publications by title, author, or year..." onkeyup="filterPublications()">
+<div class="search-stats" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+    Showing <span id="visibleCount">{{ site.data.publications.size }}</span> of {{ site.data.publications.size }} publications
+</div>
+
+<div class="search-container" style="position: relative; display: flex; align-items: center;">
+    <input type="text" id="pubSearch" placeholder="Search publications by title, author, or year..." onkeyup="filterPublications()" style="width: 100%;">
+    <button id="clearSearch" onclick="clearSearch()" style="position: absolute; right: 10px; background: none; border: none; cursor: pointer; color: #999; display: none; font-size: 1.2rem;">&times;</button>
 </div>
 
 <ul class="pub-list" id="publicationsList">
@@ -23,24 +28,47 @@ title: Publications
   {% else %}
     <li><em>Publications are currently being fetched by our automated system. Please check back shortly!</em></li>
   {% endfor %}
+  
+  <li id="noResultsMessage" style="display: none; list-style: none; color: var(--text-light); padding: 1rem;">
+    No publications found matching your search.
+  </li>
 </ul>
 
 <script>
 function filterPublications() {
-    // Get the search term from the input field
     const searchTerm = document.getElementById('pubSearch').value.toLowerCase();
-    
-    // Get all publication list items
     const listItems = document.querySelectorAll('#publicationsList .publication-item');
+    const visibleCountSpan = document.getElementById('visibleCount');
+    const clearBtn = document.getElementById('clearSearch');
+    const noResults = document.getElementById('noResultsMessage');
     
-    // Loop through each item to see if it matches the search
+    let visibleCount = 0;
+
+    // Toggle the clear button visibility
+    clearBtn.style.display = searchTerm.length > 0 ? "block" : "none";
+    
     listItems.forEach(function(item) {
         const textValue = item.textContent || item.innerText;
         if (textValue.toLowerCase().includes(searchTerm)) {
-            item.style.display = ""; // Show if it matches
+            item.style.display = ""; 
+            visibleCount++;
         } else {
-            item.style.display = "none"; // Hide if it doesn't
+            item.style.display = "none";
         }
     });
+
+    // Update the counter
+    visibleCountSpan.textContent = visibleCount;
+
+    // Show message if zero results
+    noResults.style.display = (visibleCount === 0 && searchTerm !== "") ? "block" : "none";
+}
+
+// Function to reset the search bar
+function clearSearch() {
+    const searchInput = document.getElementById('pubSearch');
+    searchInput.value = "";
+    filterPublications();
+    searchInput.focus();
 }
 </script>
