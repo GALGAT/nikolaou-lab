@@ -41,21 +41,16 @@ header {
     flex-wrap: wrap;
 }
 
-.logo-wrapper {
-    display: flex;
-    align-items: center; /* Perfectly centers the image and text vertically */
-    gap: 1.2rem; /* Gives excellent breathing room between the logo and text */
-}
 
 .header-logo {
-    height: 55px; /* Reduced from 70px for better balance */
+    height: 70px; /* Reduced from 70px for better balance */
     width: auto;
 }
 
 .logo-wrapper {
     display: flex;
     align-items: center;
-    gap: 1rem; /* Tighter gap for a more cohesive look */
+    gap: 0.8rem; /* Tighter gap for a more cohesive look */
 }
 
 .logo-text h1 {
