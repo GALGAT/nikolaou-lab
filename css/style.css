@@ -463,3 +463,30 @@ footer {
         font-size: 1.8rem !important;
     }
 }
+/* --- PI Social Icons Styling --- */
+.pi-socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px; /* Adds space after the email line */
+}
+
+.social-icon {
+    width: 28px; /* Classic, readable size */
+    height: 28px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    filter: grayscale(100%); /* Optional: makes them black/white to match the theme */
+    opacity: 0.8;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Subtle "pop" on hover */
+    opacity: 1;
+    filter: grayscale(0%); /* Returns color on hover */
+}
+
+/* Ensure centering on mobile */
+@media (max-width: 768px) {
+    .pi-socials {
+        justify-content: center;
+    }
+}
