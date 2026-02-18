@@ -76,6 +76,69 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Header Container: Spacing and Alignment */
+.header-container {
+    max-width: 1200px; /* Or use '100%' for true edge-to-edge */
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px; /* Added top padding to make everything 'lower' */
+    display: flex;
+    justify-content: space-between; /* Logo left, Nav right */
+    align-items: flex-end; /* Aligns nav links with the bottom of the logo */
+}
+
+/* Brand Grouping */
+.header-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-logo {
+    height: 70px; /* Adjust based on your logo size */
+    margin-right: 15px;
+}
+
+/* Fixing the gap between Group Name and University */
+.header-title-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1; /* Tightens the gap above university */
+}
+
+.header-sub {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.1; /* Tightens the gap below name */
+    opacity: 0.9;
+}
+
+/* Navigation Links */
+.header-nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: var(--theme-color);
+    border-bottom: 2px solid var(--theme-color);
+}
+
 /* --- Main Content Area (Updated to Full Size) --- */
 main {
     background-color: var(--white);
