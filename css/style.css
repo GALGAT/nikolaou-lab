@@ -376,3 +376,67 @@ footer {
         width: 140px; /* Scaled for phone screens */
     }
 }
+/* --- Final Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    /* 1. Center Header & Stack Logo/Text */
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+
+    .logo-wrapper {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .header-logo {
+        height: 60px; /* Prevents the logo from taking up the whole screen */
+        margin-bottom: 0.5rem;
+    }
+
+    .logo-text h1 {
+        font-size: 1.4rem; /* Keeps the title from wrapping awkwardly */
+    }
+
+    /* 2. Center Navigation and make them look like buttons */
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 8px 12px;
+        background: rgba(0, 0, 0, 0.05); /* Subtle button feel */
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+
+    /* 3. Stack Homepage Sections: About on top of News */
+    .homepage-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /* 4. Fix Research & Team Cards */
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pi-profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pi-photo img {
+        width: 150px;
+        margin-bottom: 1rem;
+    }
+}
