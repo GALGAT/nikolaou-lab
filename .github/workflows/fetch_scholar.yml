@@ -2,7 +2,8 @@ name: Fetch Google Scholar Publications
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+    # Runs at 00:00 (midnight) on the 1st and 15th of every month
+    - cron: '0 0 1,15 * *' 
   workflow_dispatch:
 
 permissions:
