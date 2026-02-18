@@ -4,16 +4,44 @@ title: Publications
 ---
 <div class="page-header">
     <h2>Selected Publications</h2>
-    <p><em>This list is automatically synchronized with Dr. Nikolaou's Google Scholar profile.</em></p>
 </div>
 
-<ul class="pub-list">
-  {% for pub in site.data.publications %}
-    <li>
-      <strong>{{ pub.title }}</strong> ({{ pub.year }})<br>
-      <span class="citation-count">Citations: {{ pub.citation }}</span>
+<div class="search-container">
+    <input type="text" id="pubSearch" placeholder="Search publications by title, author, or year..." onkeyup="filterPublications()">
+</div>
+
+<ul class="pub-list" id="publicationsList">
+  {% assign sorted_pubs = site.data.publications | sort: 'year' | reverse %}
+  
+  {% for pub in sorted_pubs %}
+    <li class="publication-item">
+      {{ pub.author }}, {{ pub.title }}. <em>{{ pub.journal }}</em>.
+      {% if pub.url %}
+        <a href="{{ pub.url }}" target="_blank" class="pub-link">{{ pub.url }}</a>,
+      {% endif %}
+      {{ pub.year }}
     </li>
   {% else %}
     <li><em>Publications are currently being fetched by our automated system. Please check back shortly!</em></li>
   {% endfor %}
 </ul>
+
+<script>
+function filterPublications() {
+    // Get the search term from the input field
+    const searchTerm = document.getElementById('pubSearch').value.toLowerCase();
+    
+    // Get all publication list items
+    const listItems = document.querySelectorAll('#publicationsList .publication-item');
+    
+    // Loop through each item to see if it matches the search
+    listItems.forEach(function(item) {
+        const textValue = item.textContent || item.innerText;
+        if (textValue.toLowerCase().includes(searchTerm)) {
+            item.style.display = ""; // Show if it matches
+        } else {
+            item.style.display = "none"; // Hide if it doesn't
+        }
+    });
+}
+</script>
