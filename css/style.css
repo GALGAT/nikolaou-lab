@@ -440,3 +440,26 @@ footer {
         margin-bottom: 1rem;
     }
 }
+@media (max-width: 768px) {
+    .homepage-grid {
+        /* This forces the two sections to stack vertically */
+        display: flex;
+        flex-direction: column; 
+        gap: 3rem;
+    }
+
+    .bio-section {
+        /* Ensures the group description is read first */
+        order: 1; 
+        text-align: left; /* Keeps the professional look on mobile */
+    }
+
+    .news-section {
+        order: 2;
+    }
+    
+    /* Make the hero text scale down even more on very small screens */
+    .hero h2 {
+        font-size: 1.8rem !important;
+    }
+}
