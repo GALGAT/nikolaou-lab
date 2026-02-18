@@ -1,6 +1,11 @@
-- title: "Pharmacokinetics & Pharmacodynamics (PK/PD) Modeling"
-  description: "Mathematical modeling of microbial adaptation to antimicrobial and cytotoxic agents to optimize dosing regimens and eradicate persister bacteria."
-- title: "Scientific Computing & Process Control"
-  description: "Modeling the interactions between transport phenomena and chemical reactions. Developing multi-scale process models and model predictive control (MPC) systems."
-- title: "Energy and Environment"
-  description: "Computer-aided process engineering in oil and gas production, including managed-pressure drilling, and green energy solutions."
+- title: "Intelligent Systems & Feedback Control"
+  description: "Developing fundamental methods for the intelligent design and operation of engineered systems. We utilize mathematical modeling, optimization, statistics, and feedback loops to improve safety, reliability, and performance across various industries, from microchip fabrication to snack food production."
+
+- title: "Effective Development and Use of Antibiotics"
+  description: "Designing clinical practices that maximize the killing effect of antibiotics on infectious bacteria while minimizing toxicity for human patients. This highly interdisciplinary work bridges engineering and medicine to optimize dosing strategies."
+
+- title: "Sustainable Energy Solutions"
+  description: "Addressing critical global challenges through the generation of clean energy and the development of efficient, sustainable energy storage systems."
+
+- title: "Applied Research & Industry Collaboration"
+  description: "Collaborating with field practitioners to test fundamental solutions on real-world problems. Solutions are validated using computer simulations, laboratory experiments, or full-scale tests in sectors ranging from oil and gas and refining to pharmaceuticals and semiconductor manufacturing."
