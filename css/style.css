@@ -399,3 +399,56 @@ footer {
 .news-card:hover {
     border-left-color: var(--theme-color);
 }
+/* Pillars Container - Modern Sidebar style */
+.pillars-container {
+    background: #fdfdfd; 
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #f1c40f; /* Lab gold theme */
+    margin: 2.5rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.pillar-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pillar-bullets li {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    padding-left: 1.8rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.pillar-bullets li:last-child {
+    margin-bottom: 0;
+}
+
+/* Custom Marker - The Arrow Icon */
+.pillar-bullets li::before {
+    content: "→"; 
+    position: absolute;
+    left: 0;
+    color: #f1c40f; /* Theme color */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Interactivity: Sublte lift on hover */
+.pillar-bullets li:hover {
+    transform: translateX(8px);
+    color: #000;
+}
+
+.pillar-bullets li strong {
+    color: #000;
+    font-size: 1.05rem;
+    display: block; /* Moves the description to a new line for cleaner reading */
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
