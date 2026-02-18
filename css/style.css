@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header & Navigation */
+/* ===== HEADER (Consolidated) ===== */
 header {
     background-color: var(--theme-color);
     color: var(--text-dark);
@@ -35,58 +35,18 @@ header {
     width: 100%;
 }
 
-.header-content {
+/* Use one flex container for header layout */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
-.header-logo {
-    height: 70px;
-    width: auto;
-}
-
-.logo-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-}
-
-.logo-text h1 {
-    font-size: 1.6rem;
-    letter-spacing: -0.5px;
-}
-
-.logo-text .subtitle {
-    font-size: 0.95rem;
-    opacity: 0.9;
-    display: block;
-    margin-top: 0.2rem;
-}
-
-nav a {
-    color: var(--text-dark);
-    text-decoration: none;
-    margin-left: 1.5rem;
-    font-weight: 600;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Header Container: Spacing and Alignment */
-.header-container {
-    max-width: 1200px; /* Or use '100%' for true edge-to-edge */
-    margin: 0 auto;
-    padding: 40px 20px 20px 20px; /* Added top padding to make everything 'lower' */
-    display: flex;
-    justify-content: space-between; /* Logo left, Nav right */
-    align-items: flex-end; /* Aligns nav links with the bottom of the logo */
-}
-
-/* Brand Grouping */
+/* Brand group (logo + text) */
 .header-brand {
     display: flex;
     align-items: center;
@@ -95,11 +55,11 @@ nav a:hover {
 }
 
 .header-logo {
-    height: 70px; /* Adjust based on your logo size */
+    height: 70px;
+    width: auto;
     margin-right: 15px;
 }
 
-/* Fixing the gap between Group Name and University */
 .header-title-group {
     display: flex;
     flex-direction: column;
@@ -109,17 +69,17 @@ nav a:hover {
     font-size: 1.8rem;
     font-weight: bold;
     margin: 0;
-    line-height: 1.1; /* Tightens the gap above university */
+    line-height: 1.1;
 }
 
 .header-sub {
     font-size: 1rem;
     margin: 0;
-    line-height: 1.1; /* Tightens the gap below name */
+    line-height: 1.1;
     opacity: 0.9;
 }
 
-/* Navigation Links */
+/* Navigation */
 .header-nav {
     display: flex;
     gap: 25px;
@@ -139,20 +99,19 @@ nav a:hover {
     border-bottom: 2px solid var(--theme-color);
 }
 
-/* --- Main Content Area (Updated to Full Size) --- */
+/* ===== MAIN (Combined) ===== */
 main {
     background-color: var(--white);
-    width: 100%;          /* Spans full screen width */
-    margin: 0;            /* Removes the 2rem top/bottom gap */
-    padding: 4rem 0;      /* Vertical padding only; horizontal handled by .container */
-    box-shadow: none;     /* Removes the "card" shadow */
-    border-radius: 0;     /* Removes rounded corners */
-}
-main {
+    width: 100%;
+    margin: 0;
+    padding: 4rem 0;
+    box-shadow: none;
+    border-radius: 0;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
 }
-/* Homepage Specifics */
+
+/* ===== HOMEPAGE ===== */
 .hero {
     text-align: center;
     margin-bottom: 3rem;
@@ -164,6 +123,11 @@ main {
     font-size: 2.5rem;
     color: var(--theme-color);
     margin-bottom: 0.5rem;
+}
+
+.hero h2 span {
+    color: var(--theme-color);
+    border-bottom: 3px solid var(--theme-color);
 }
 
 .homepage-grid {
@@ -187,7 +151,24 @@ main {
     background-color: var(--theme-hover);
 }
 
-/* News List */
+.btn-secondary {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border: 2px solid var(--theme-color);
+    color: var(--text-dark);
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--theme-color);
+    color: #fff;
+}
+
+/* News List (used on homepage) */
 .news-list {
     list-style: none;
 }
@@ -208,7 +189,21 @@ main {
     text-decoration: none;
 }
 
-/* Footer */
+/* News Cards (alternate style) */
+.news-card {
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    border-left: 3px solid #eee;
+    transition: border-color 0.3s;
+}
+
+.news-card:hover {
+    border-left-color: var(--theme-color);
+}
+
+/* ===== FOOTER ===== */
 footer {
     text-align: center;
     padding: 2rem 0;
@@ -218,7 +213,7 @@ footer {
     width: 100%;
 }
 
-/* New Page Styles */
+/* ===== PAGE HEADER (for interior pages) ===== */
 .page-header {
     margin-bottom: 2rem;
     border-bottom: 2px solid var(--theme-color);
@@ -230,7 +225,7 @@ footer {
     font-size: 2rem;
 }
 
-/* --- Research Cards --- */
+/* ===== RESEARCH CARDS ===== */
 .research-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
@@ -259,7 +254,7 @@ footer {
     color: var(--text-dark);
 }
 
-/* --- PI Profile Layout --- */
+/* ===== PI PROFILE ===== */
 .pi-profile {
     display: flex;
     gap: 2rem;
@@ -298,128 +293,39 @@ footer {
     filter: grayscale(0%);
 }
 
-/* --- Consolidated Mobile Responsiveness --- */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem 0;
-    }
-
-    .logo-wrapper {
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .header-logo {
-        height: 60px;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0;
-        gap: 10px;
-        width: 100%;
-    }
-
-    nav a {
-        margin: 0;
-        padding: 8px 12px;
-        background: rgba(0, 0, 0, 0.05);
-        border-radius: 4px;
-        font-size: 0.9rem;
-    }
-
-    .homepage-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .research-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .pi-profile {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .pi-photo img {
-        width: 150px;
-        margin-bottom: 1rem;
-    }
-
-    .hero h2 {
-        font-size: 1.8rem;
-    }
-
-    .pi-socials {
-        justify-content: center;
-    }
-}
-/* --- Publications Search Bar Fix --- */
+/* ===== PUBLICATIONS SEARCH ===== */
 .search-container {
-    margin: 2rem 0;     /* Space above and below the search bar */
-    width: 100%;        /* Ensures the wrapper fills the container */
+    margin: 2rem 0;
+    width: 100%;
     display: block;
 }
 
 #pubSearch {
-    width: 100%;               /* Forces the bar to stretch to full width */
-    padding: 14px 20px;        /* Increases height for a modern feel */
-    font-size: 1.1rem;         /* Easier to read */
-    border: 2px solid #eee;    /* Light, clean border */
-    border-radius: 8px;        /* Matches your research card style */
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #eee;
+    border-radius: 8px;
     color: var(--text-dark);
-    transition: all 0.3s ease; /* Smooth transition for focus */
+    transition: all 0.3s ease;
     outline: none;
 }
 
-/* Hover & Focus Effects */
 #pubSearch:hover {
     border-color: #ddd;
 }
 
 #pubSearch:focus {
     border-color: var(--theme-color);
-    box-shadow: 0 0 8px rgba(241, 190, 108, 0.2); /* Subtle glow */
+    box-shadow: 0 0 8px rgba(241, 190, 108, 0.2);
 }
 
-/* Styling the placeholder text */
 #pubSearch::placeholder {
     color: #999;
     font-style: italic;
 }
 
-/* Hero Span for Emphasis */
-.hero h2 span {
-    color: var(--theme-color);
-    border-bottom: 3px solid var(--theme-color);
-}
-
-.btn-secondary {
-    display: inline-block;
-    padding: 0.7rem 1.5rem;
-    text-decoration: none;
-    border: 2px solid var(--theme-color);
-    color: var(--text-dark);
-    border-radius: 4px;
-    font-weight: bold;
-    margin-left: 1rem;
-    transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-    background-color: var(--theme-color);
-    color: #fff;
-}
-
-/* Impact Metrics Grid */
+/* ===== IMPACT METRICS ===== */
 .impact-metrics {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -449,25 +355,12 @@ footer {
     color: var(--text-light);
 }
 
-/* News Card Styling */
-.news-card {
-    margin-bottom: 1.2rem !important;
-    padding: 1rem !important;
-    background: #fff;
-    border-radius: 6px;
-    border-left: 3px solid #eee;
-    transition: border-color 0.3s;
-}
-
-.news-card:hover {
-    border-left-color: var(--theme-color);
-}
-/* Pillars Container - Modern Sidebar style */
+/* ===== PILLARS SECTION ===== */
 .pillars-container {
     background: #fdfdfd; 
     padding: 1.5rem 2.5rem;
     border-radius: 8px;
-    border-left: 5px solid #f1c40f; /* Lab gold theme */
+    border-left: 5px solid #f1c40f;
     margin: 2.5rem 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.03);
 }
@@ -491,17 +384,15 @@ footer {
     margin-bottom: 0;
 }
 
-/* Custom Marker - The Arrow Icon */
 .pillar-bullets li::before {
     content: "→"; 
     position: absolute;
     left: 0;
-    color: #f1c40f; /* Theme color */
+    color: #f1c40f;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-/* Interactivity: Sublte lift on hover */
 .pillar-bullets li:hover {
     transform: translateX(8px);
     color: #000;
@@ -510,11 +401,13 @@ footer {
 .pillar-bullets li strong {
     color: #000;
     font-size: 1.05rem;
-    display: block; /* Moves the description to a new line for cleaner reading */
+    display: block;
     margin-bottom: 0.2rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+
+/* ===== LAB FORM ===== */
 .lab-form {
     background: var(--bg-light);
     padding: 2rem;
@@ -549,9 +442,98 @@ footer {
     margin-top: 0.2rem;
 }
 
-/* Mobile Responsiveness */
+/* ===== CONTACT GRID (missing definition) ===== */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* two columns: contact info + form */
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* ===== MOBILE RESPONSIVENESS (Merged) ===== */
 @media (max-width: 768px) {
+    /* Header */
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+
+    .header-brand {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .header-logo {
+        height: 60px;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .header-nav a {
+        margin: 0;
+        padding: 8px 12px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+
+    /* Homepage */
+    .homepage-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .btn-secondary {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    /* Research */
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* PI Profile */
+    .pi-profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pi-photo img {
+        width: 150px;
+        margin-bottom: 1rem;
+    }
+
+    .pi-socials {
+        justify-content: center;
+    }
+
+    /* Impact metrics */
+    .impact-metrics {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* Contact grid */
     .contact-grid {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr;
+    }
+
+    /* Any other elements that need stacking */
+    .pillars-container {
+        padding: 1.5rem;
     }
 }
