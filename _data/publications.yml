@@ -110,12 +110,6 @@
   author: M Nikolaou
   journal: Computers & Chemical Engineering 157, 107615, 2022
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ruyezt5ZtCIC
-- title: Simultaneous in vitro simulation of multiple antimicrobial agents with different
-    elimination half-lives in a pre-clinical infection model
-  year: '2021'
-  author: I Kesisoglou, BM Eales, KR Ledesma, PR Merlau, VH Tam, W Wang, ...
-  journal: Computers & chemical engineering 155, 107540, 2021
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:e_rmSamDkqQC
 - title: Automated Solid State Electrolyte Conductivity Predictions Via Probability
     Density Analysis
   year: '2021'
@@ -163,6 +157,12 @@
   author: VH Tam, H Abodakpi, W Wang, KR Ledesma, PR Merlau, K Chan, ...
   journal: Journal of Antimicrobial Chemotherapy 76 (1), 179-183, 2021
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:kz9GbA2Ns4gC
+- title: Simultaneous in vitro simulation of multiple antimicrobial agents with different
+    elimination half-lives in a pre-clinical infection model
+  year: '2020'
+  author: I Kesisoglou, BM Eales, KR Ledesma, PR Merlau, VH Tam, W Wang, ...
+  journal: bioRxiv, 2020.12. 21.405464, 2020
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:e_rmSamDkqQC
 - title: Machine Learning the Fundamental Tradeoffs between Conductivity and Voltage
     Stability in Solid State Electrolytes
   year: '2020'
