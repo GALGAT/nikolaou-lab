@@ -415,8 +415,9 @@
     impact through zonal isolation improvements for horizontal wells drilled in the
     marcellus shale
   year: '2013'
-  author: J Bassett*, J Watters, NK Combs, M Nikolaou
-  journal: Global Meeting Abstracts, 1020-1028, 2013
+  author: J Bassett, J Watters, NK Combs, M Nikolaou
+  journal: SPE/AAPG/SEG Unconventional Resources Technology Conference, URTEC-1582346-MS,
+    2013
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:0KyAp5RtaNEC
 - title: 'SeTES: a self-teaching expert system for the analysis, design, and prediction
     of gas production from unconventional gas resources'
@@ -1160,9 +1161,8 @@
 - title: Solution of the optimal plant location and sizing problem using simulated
     annealing and genetic algorithms
   year: '1995'
-  author: R Rao, V Hanagandi, K Buescher, M Nikolaou
-  journal: "Proceedings: International Federation of Operations Research Societies\
-    \ \u2026, 1995"
+  author: R Rao, KL Buescher, V Hanagandi
+  journal: Los Alamos National Lab., NM (United States), 1995
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ZHo1McVdvXMC
 - title: Performance bounds for robust quadratic dynamic matrix control with end condition
   year: '1995'
