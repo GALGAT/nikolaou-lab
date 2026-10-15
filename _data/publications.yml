@@ -335,6 +335,11 @@
   author: AP Singh, M Nikolaou, L Saputelli, M Maucec
   journal: US Patent App. 14/770,381, 2016
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ZfRJV9d4-WMC
+- title: 'ESP Health Monitoring KPI: A Real-Time Predictive Analytics Application'
+  year: '2016'
+  author: G Supriya, N Michael, S Luigi, B Cesar
+  journal: ''
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:cWzG1nlazyYC
 - title: 'Increasing shale gas recovery through thermal stimulation: analysis and
     an experimental study'
   year: '2015'
@@ -564,7 +569,7 @@
   year: '2010'
   author: VH Tam, M Nikolaou
   journal: US Patent App. 11/992,633, 2010
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:SdhP9T11ey4C
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:SdhP9T11ey4C
 - title: Mathematical modeling to characterize the inoculum effect
   year: '2010'
   author: P Bhagunde, KT Chang, R Singh, V Singh, KW Garey, M Nikolaou, ...
@@ -866,9 +871,8 @@
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:3fE2CSJIrl8C
 - title: Adaptive Design of Experiments for Optimal Uniformity in Semiconductor Manufacturing
   year: '2003'
-  author: M Nikolaou
-  journal: NSF Award Number 0227232. Directorate for Engineering 2 (227232), 27232,
-    2003
+  author: M Nikolaou, DJ Economou
+  journal: NSF Award 2 (227232), 27232, 2003
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:DUooU5lO8OsC
 - title: A critical overview of artificial neural network applications in the context
     of continuous oil field optimization
@@ -1134,7 +1138,7 @@
   year: '1996'
   author: H Genceli, M Nikolaou
   journal: IFAC Proceedings Volumes 29 (1), 4557-4562, 1996
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:URolC5Kub84C
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:URolC5Kub84C
 - title: Solution of the self-consistent field model for polymer adsorption by genetic
     algorithms
   year: '1996'
@@ -1153,17 +1157,17 @@
   author: W Feng, H Genceli, M Nikolaou
   journal: Computers & chemical engineering 20, S1011-S1016, 1996
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:r0BpntZqJG4C
-- title: The use of wavelet transformations in the solution of two-phase flow problems
-  year: '1995'
-  author: GJ Moridis, M Nikolaou, Y You
-  journal: Society of Petroleum Engineers, Richardson, TX (United States), 1995
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:dQ2og3OwTAUC
 - title: Solution of the optimal plant location and sizing problem using simulated
     annealing and genetic algorithms
   year: '1995'
   author: R Rao, KL Buescher, V Hanagandi
   journal: Los Alamos National Lab., NM (United States), 1995
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:ZHo1McVdvXMC
+- title: The use of wavelet transformations in the solution of two-phase flow problems
+  year: '1995'
+  author: GJ Moridis, M Nikolaou, Y You
+  journal: Society of Petroleum Engineers, Richardson, TX (United States), 1995
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:dQ2og3OwTAUC
 - title: Performance bounds for robust quadratic dynamic matrix control with end condition
   year: '1995'
   author: P Vuthandam, H Genceli, M Nikolaou
@@ -1315,6 +1319,12 @@
   author: M Nikolaou, MR Cherukuri
   journal: AIChE Symposium Series, 413, 1971
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:0izLItjtcgwC
+- title: A Novel Pharmacodynamic Modeling Approach to the Inoculum Effect and Microbial
+    Heterogeneity
+  year: ''
+  author: H GALGAT, VH Tam, M Nikolaou
+  journal: Available at SSRN 7511764, 0
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mLs4L3UAAAAJ&cstart=200&pagesize=100&sortby=pubdate&citation_for_view=mLs4L3UAAAAJ:DJbcl8HfkQkC
 - title: Michael Nikolaou
   year: ''
   author: M Nikolaou, SA Pages, MP List
